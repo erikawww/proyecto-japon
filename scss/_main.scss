@@ -1,0 +1,93 @@
+/* ========================== CONT. PRINCIPAL ========================== */
+.splash-main{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:auto;
+    grid-template-areas:"texto contenedorImg"
+                        "section section";
+}
+/* //////////////////////////////////////// caja de texto */
+.texto{
+    margin-left: 88px;
+    margin-top: 268px;
+    grid-area: texto;
+    margin-right: 88px;
+    h1{
+        font-weight: bold;
+        font-size: 48px;
+        padding: 10px;
+        color: $color-negro;
+    }
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-weight: semibold;
+    font-size: 36px;
+    padding: 10px;
+    color: $color-negro;
+}
+.parrafo{
+    font-weight: regular;
+    font-size: 24px;
+    margin-left: 10px;
+    line-height: 33px;
+    color: $color-negro;  
+}
+/* ////////////////////////////////////// caja de imagenes */
+.contenedorImg{
+
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+    grid-area: contenedorImg;
+    padding-bottom: 20px;
+
+}
+.imgRopa{
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+.ropa-img{
+    width: 700px;
+    height: inherit;
+    position: absolute;
+    right: 240px;
+    z-index: 100;
+}
+.icono_k{
+    display: flex;
+    flex-flow: column;
+    align-items:  center;
+    z-index: 200;
+    position: absolute;
+    top: 500px;
+    cursor: pointer
+}
+.circulo {
+    width: 1000px;
+    height: 1000px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: $color-rojo;
+    position: relative;
+    top: -290;
+    right: 0;
+    left: 150px;
+    animation: animaImg ease-in 1s infinite alternate;
+    @keyframes animaImg{
+        0%{
+            transform: scale(1);
+        }100%{
+            transform: scale(1.02)
+        }
+    }
+}

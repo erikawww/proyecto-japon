@@ -1,0 +1,20 @@
+//ESTILOS GENERALES
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(to bottom right, #fefefe , #eee5fa);
+}
+// Paleta de colores
+$color-blanco: #fefefe;
+$color_bg: #eee5fa;
+$color-negro: #222222;
+$color-rojo: #BC002D;
+$color-footer: #1C1B1B;
+$color-gris: #807e7e;
