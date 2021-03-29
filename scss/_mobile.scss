@@ -1,42 +1,146 @@
 // MEDIA QUERIES
 
-// .cabecera {
-//     .cabecera__titulo{
-//         @media (min-width: 360px) {
-//             text-align: center;
-//         }
-//     }
-	
-// }
-//Home
-// .img{
-//     @media (max-width: 1200px){
-//         height: auto;
-//         width: auto;
-//     }
-// }
-//Portfolio
-// .cards {
-//     @media (max-width: 736px){
-//         display: grid;
-//         grid-template-columns: 1fr; 
-//     }
-// }
-// .card-cover{
-//     @media (max-width: 736px){
-//         height: 200px;
-//         width: auto;
-//     }
-// }
-// Servicios
-// .contenido-servicios{
-//     @media (max-width: 1003px){
-//         height: auto;
-//         display: grid;
-//         grid-template-columns: 1fr;
-//         grid-template-rows: auto;
-//         grid-template-areas: "recitales" 
-//                             "prensa" 
-//                             "book";
-//     }
-// }
+///////////////////////// Mac Pro /////////////////////////// 
+
+/////////////////////////// header
+.cabecera{
+    @media (max-width: 1440px){
+        padding-top: 39px;
+    }
+}
+.ropa-img{
+    @media (max-width: 1440px){
+        width: 633.79px;
+        height: 844.75px;
+        right: 151px;
+    }
+}
+.circulo{
+    @media (max-width: 1440px){
+        position: relative;
+        height: 900px;
+        width: 900px;
+        left: 216px;    
+    }
+}
+.texto{
+    @media (max-width: 1440px){
+        margin-right: 0;
+        margin-top: 220px;
+    }
+    h1{
+        @media (max-width: 1440px){
+            font-size: 42px;
+            }
+        
+    }
+    p{
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
+
+/////////////// main
+.splash-main{
+    @media (max-width: 1440px){
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(45%-55%, 1fr));
+        grid-template-rows: 500px;
+        grid-template-areas:"texto contenedorImg"
+                            "texto contenedorImg";
+    }
+
+}
+/////////////////// cards
+.container{
+    @media (max-width: 1440px){
+        width: 32%;
+    }
+}
+.container .card p {
+    @media (max-width: 1440px){
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+.container2 .card2 h3 {
+    @media (max-width: 1440px){
+        font-size: 18px;
+        font-weight: 600;
+        font-size: 23px;
+    }
+}    
+.card-btn{
+    @media (max-width: 1440px){
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+//////////////////////// sections
+#mujer{
+    @media (max-width: 1440px){
+        padding-top: 38px;
+    }
+}
+.circulo-bg{
+    @media (max-width: 1440px){
+        top: 3581px;
+    }
+}
+
+///////////////////////////// footer
+.arrow-up{
+    @media (max-width: 1440px){
+        top: 4659px;
+    }
+
+}
+.waves-img{
+    @media (max-width: 1440px){
+        width: 1576px;
+        height: 593px;
+        left: -1px;
+        top: 75px;
+        right: 135px;
+    }
+
+}
+.logo-white {
+    @media (max-width: 1440px){
+        display: flex;
+        align-items: center;
+        margin-right: 63px;
+        margin-bottom: 100px;
+        justify-content: center;
+    }
+}
+.mapa{
+    @media (max-width: 1440px){
+        align-items: flex-start;
+    }
+    iframe{
+        @media (max-width: 1440px){
+            width: 365.38px;
+        }
+    }
+}
+.autora{
+    @media (max-width: 1440px){
+        margin-top: 93px;
+    }
+}
+
+///////////////////////// Smartphones /////////////////////////// 

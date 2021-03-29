@@ -252,8 +252,8 @@ h2 {
   height: 850.89px;
   background: rgba(188, 0, 45, 0.4);
   top: 3866px;
-  right: 50%;
-  left: 517px;
+  right: 50;
+  left: 50;
   z-index: -100; }
 
 .contenedor-catalogo {
@@ -410,8 +410,8 @@ h2 {
 
 .waves-img {
   position: relative;
-  width: 2055px;
-  height: 721px;
+  width: 2353px;
+  height: 814px;
   left: -1px;
   top: 75px;
   right: 135px; }
@@ -532,3 +532,100 @@ iframe {
 .arrow-img {
   height: 30px;
   height: 30px; }
+
+@media (max-width: 1440px) {
+  .cabecera {
+    padding-top: 39px; } }
+
+@media (max-width: 1440px) {
+  .ropa-img {
+    width: 633.79px;
+    height: 844.75px;
+    right: 151px; } }
+
+@media (max-width: 1440px) {
+  .circulo {
+    position: relative;
+    height: 900px;
+    width: 900px;
+    left: 216px; } }
+
+@media (max-width: 1440px) {
+  .texto {
+    margin-right: 0;
+    margin-top: 220px; } }
+
+@media (max-width: 1440px) {
+  .texto h1 {
+    font-size: 42px; } }
+
+.texto p {
+  font-size: 24px;
+  font-weight: 400; }
+
+@media (max-width: 1440px) {
+  .splash-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(-10%, 1fr));
+    grid-template-rows: 500px;
+    grid-template-areas: "texto contenedorImg" "texto contenedorImg"; } }
+
+@media (max-width: 1440px) {
+  .container {
+    width: 32%; } }
+
+@media (max-width: 1440px) {
+  .container .card p {
+    font-size: 18px;
+    margin-bottom: 10px; } }
+
+@media (max-width: 1440px) {
+  .container2 .card2 h3 {
+    font-size: 18px;
+    font-weight: 600;
+    font-size: 23px; } }
+
+@media (max-width: 1440px) {
+  .card-btn {
+    font-size: 18px;
+    font-weight: 500; } }
+
+@media (max-width: 1440px) {
+  #mujer {
+    padding-top: 38px; } }
+
+@media (max-width: 1440px) {
+  .circulo-bg {
+    top: 3581px; } }
+
+@media (max-width: 1440px) {
+  .arrow-up {
+    top: 4659px; } }
+
+@media (max-width: 1440px) {
+  .waves-img {
+    width: 1576px;
+    height: 593px;
+    left: -1px;
+    top: 75px;
+    right: 135px; } }
+
+@media (max-width: 1440px) {
+  .logo-white {
+    display: flex;
+    align-items: center;
+    margin-right: 63px;
+    margin-bottom: 100px;
+    justify-content: center; } }
+
+@media (max-width: 1440px) {
+  .mapa {
+    align-items: flex-start; } }
+
+@media (max-width: 1440px) {
+  .mapa iframe {
+    width: 365.38px; } }
+
+@media (max-width: 1440px) {
+  .autora {
+    margin-top: 93px; } }
