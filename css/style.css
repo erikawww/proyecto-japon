@@ -18,6 +18,12 @@ body {
   justify-content: center;
   padding-top: 60px; }
 
+.status {
+  display: none; }
+
+.burguer-menu {
+  display: none; }
+
 .logo {
   display: flex;
   justify-content: center;
@@ -557,7 +563,7 @@ iframe {
 
 @media (max-width: 1440px) {
   .texto h1 {
-    font-size: 42px; } }
+    font-size: 22px; } }
 
 .texto p {
   font-size: 24px;
@@ -592,7 +598,13 @@ iframe {
 
 @media (max-width: 1440px) {
   #mujer {
-    padding-top: 38px; } }
+    padding-top: 34px;
+    padding-bottom: 14px; } }
+
+@media (max-width: 1440px) {
+  #hombre {
+    padding-top: 34px;
+    padding-bottom: 6px; } }
 
 @media (max-width: 1440px) {
   .circulo-bg {
@@ -629,3 +641,88 @@ iframe {
 @media (max-width: 1440px) {
   .autora {
     margin-top: 93px; } }
+
+@media (max-width: 375px) {
+  .body {
+    background-color: white; } }
+
+@media (max-width: 375px) {
+  .status {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center; } }
+
+@media (max-width: 375px) {
+  .status-bar {
+    height: 39px;
+    width: 375px; } }
+
+@media screen and (max-width: 375px) {
+  .cabecera {
+    padding-top: 0px; } }
+
+@media screen and (max-width: 375px) {
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; } }
+
+@media (max-width: 375px) {
+  .logo-header {
+    height: 50px;
+    width: auto; } }
+
+@media screen and (max-width: 375px) {
+  .nav-bar {
+    display: none; } }
+
+@media screen and (max-width: 375px) {
+  hr {
+    display: none; } }
+
+@media (max-width: 375px) {
+  .splash-main {
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: "texto"  "contenedorImg"; } }
+
+@media (max-width: 375px) {
+  .texto {
+    grid-area: texto;
+    margin-top: 48px;
+    margin-left: 15px;
+    margin-right: 52px; } }
+
+.texto p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  padding-top: 1px; }
+
+@media (max-width: 375px) {
+  .contenedorImg {
+    grid-area: contenedorImg;
+    padding-top: 0;
+    padding-bottom: 54px; } }
+
+@media (max-width: 375px) {
+  .circulo {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 144px;
+    top: 47px;
+    overflow: hidden; } }
+
+@media (max-width: 375px) {
+  .ropa-img {
+    position: relative;
+    width: auto;
+    height: 340px;
+    left: -33px;
+    top: 104px; } }

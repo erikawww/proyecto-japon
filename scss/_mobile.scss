@@ -30,7 +30,8 @@
     }
     h1{
         @media (max-width: 1440px){
-            font-size: 42px;
+            font-size: 22px;
+           
             }
         
     }
@@ -80,19 +81,17 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
 //////////////////////// sections
 #mujer{
     @media (max-width: 1440px){
-        padding-top: 38px;
+        padding-top: 34px;
+        padding-bottom: 14px;
+    }
+}
+#hombre{
+    @media (max-width: 1440px){
+        padding-top: 34px;
+        padding-bottom: 6px;
     }
 }
 .circulo-bg{
@@ -143,4 +142,169 @@
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ///////////////////////// Smartphones /////////////////////////// 
+.body{
+    
+    @media (max-width: 375px){
+    background-color: white;
+    }
+}
+// .contenedor-full{
+//     @media screen and (max-width: 375px){
+//         width: 100vh;
+//         height: 100vh;
+//         background-color: $color-blanco;
+        // background-image: linear-gradient(to bottom right, #fefefe , #eee5fa);
+        // background-repeat: no-repeat;
+        // background-attachment: fixed;
+        // background-position: center;
+
+// ------------------------ header
+.status{
+    @media  (max-width: 375px){
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: center;
+ 
+    }
+}
+
+.status-bar{
+    @media  (max-width: 375px){
+        height: 39px;
+        width: 375px;
+    }
+}
+.cabecera{
+    @media screen and (max-width: 375px){
+        padding-top: 0px;
+    }
+}
+
+.logo{
+    @media screen and (max-width: 375px){
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+}
+.logo-header{
+    @media (max-width: 375px){
+        height: 50px;
+        width: auto;
+    }
+    
+}
+.nav-bar{
+    @media screen and (max-width: 375px){
+        display: none;
+    }
+}
+hr{
+    @media screen and (max-width: 375px){
+        display: none;
+    }
+}
+// main--------------------------------------------------
+
+.splash-main{
+        @media (max-width: 375px){
+            overflow: hidden;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: auto;
+            grid-template-areas: "texto" 
+                                "contenedorImg";
+            }
+    }
+
+.texto{
+    @media (max-width: 375px){
+        grid-area: texto;
+        margin-top: 48px;
+        margin-left: 15px;
+        margin-right: 52px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15px;
+        padding-top: 1px;
+    }
+}
+.contenedorImg{
+    @media (max-width: 375px){
+        grid-area: contenedorImg;
+        // height: 100vh;
+        // width: 100vh;
+        padding-top: 0;
+        padding-bottom: 54px;
+    }
+}
+
+.circulo{
+    @media (max-width: 375px){
+        // display: none;
+        position: relative;
+        width: 400px;
+        height: 400px;
+        left: 144px;
+        top: 47px;
+        overflow: hidden;
+    }
+}
+.ropa-img{
+        @media (max-width: 375px){
+            position: relative;
+            width: auto;
+            height: 340px;
+            left: -33px;
+            top: 104px;
+        }
+}
+
+
+
+
+//     .line{
+//         width: 30px;
+//         height: 30px;
+//         background: $color-rojo;
+//         margin: 5px;
+//     }
+//     .nav-bar{
+//         position: relative;
+//     }
+//     .burguer-menu{
+//         position: absolute;
+//         cursor: pointer;
+//         right: 5%;
+//         top: 50%;
+//         transform: translate (-5%, -50%)
+//     }
+
+//     .nav-links{
+//         position: fixed;
+//         background: $color-azul;
+//         height: 100vh;
+//         width: 100%;
+//         clip-path: circle(100px);
+//     }
