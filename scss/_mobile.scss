@@ -145,52 +145,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ///////////////////////// Smartphones /////////////////////////// 
-.body{
-    
-    @media (max-width: 375px){
-    background-color: white;
-    }
-}
-// .contenedor-full{
-//     @media screen and (max-width: 375px){
-//         width: 100vh;
-//         height: 100vh;
-//         background-color: $color-blanco;
-        // background-image: linear-gradient(to bottom right, #fefefe , #eee5fa);
-        // background-repeat: no-repeat;
-        // background-attachment: fixed;
-        // background-position: center;
 
 // ------------------------ header
-.status{
-    @media  (max-width: 375px){
-        display: flex;
-        flex-direction: column;
-        align-content: flex-start;
-        justify-content: center;
- 
-    }
-}
-
-.status-bar{
-    @media  (max-width: 375px){
-        height: 39px;
-        width: 375px;
-    }
-}
 .cabecera{
     @media screen and (max-width: 375px){
         padding-top: 0px;
@@ -202,6 +159,7 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        padding: 20px 0 0 30px;
     }
 }
 .logo-header{
@@ -244,10 +202,12 @@ hr{
         margin-right: 52px;
     }
     p{
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 15px;
-        padding-top: 1px;
+        @media (max-width: 375px){
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 15px;
+            padding-top: 1px;
+        }
     }
 }
 .contenedorImg{
@@ -275,10 +235,222 @@ hr{
         @media (max-width: 375px){
             position: relative;
             width: auto;
-            height: 340px;
-            left: -33px;
-            top: 104px;
+            height: 385px;
+            left: -36px;
+            top: 85px;
         }
+}
+
+
+// --------------------------------- SECTIONS
+h2{
+    @media (max-width: 375px){
+            font-size: 26px;
+    }
+}
+#hombre{
+    @media (max-width: 375px){
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 60px;
+    }
+}
+#mujer{
+    @media (max-width: 375px){
+        margin-top: 60px;
+    }
+}
+// #catalogo{
+//     @media (max-width: 375px){
+//         margin-top: 60px;
+//         h2{
+//             margin-top: 150px;
+//         }
+//     }
+// }
+.section-1{
+    @media (max-width: 375px){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; 
+        padding-top: 20px;
+    }
+}
+
+.section-2{
+    @media (max-width: 375px){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; 
+        padding-top: 20px;
+    }
+}
+/* ////////////////////////////////////// cards */
+.container{
+    @media (max-width: 375px){
+        width: 303px;
+        height: 296px;
+        margin-bottom: 210px;
+    }
+}
+.container .card{
+    @media (max-width: 375px){
+        width: 330px;
+        height: 460px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 20px;
+        background-color:$color-blanco;
+        text-align: center;
+    }
+}
+.container2{
+    @media (max-width: 375px){
+        display: none;
+    }
+}
+.search-box{
+    @media (max-width: 375px){
+        width: 340px;
+        margin-top: 44px;
+    }
+}
+.contenedor-cards{
+    @media (max-width: 375px){
+        display: none;
+    }
+}
+.catalogo-btn{
+    @media (max-width: 375px){
+        text-decoration: none;
+        border-radius: 50px;
+        background-color: $color-rojo;
+        font-size: 15px;
+        height: 50px;
+        font-size: 1.4rem;
+        color: $color-blanco;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        line-height: 25px;
+        margin-top: 75px;
+    }
+}
+.nav-catalogo{
+    ul{
+        @media (max-width: 375px){
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            li{
+                padding: 20px;
+            }    
+        } 
+    }
+}
+.circulo-bg{
+    @media (max-width: 375px){
+        display: none;
+    }
+}
+.arrow-up{
+    @media (max-width: 375px){
+        display: none;
+    }
+}
+// -------------------    footer
+
+.pie-pagina{
+    @media (max-width: 375px){
+        height: 65vh;
+    }
+}
+.waves-img{
+    @media (max-width: 375px) {
+        margin-top: -315px;
+        left: -501px;
+        width: 1094px;
+        height: 593px;
+        top: 144px;
+        right: 135px;
+    }
+}
+
+.contenedor-footer{
+    @media (max-width: 375px){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    } 
+}
+.logo-white{
+    @media (max-width: 375px){
+       margin-right: 0px;
+       margin-bottom: 25px;
+        .logo-img{
+            width: 173px;
+            height: auto;
+        }
+    }
+}
+.contenedor-redes{
+    @media (max-width: 375px){
+        position: relative;
+        bottom: -95px;
+        margin-right: 0px;
+        margin: 40px 0 40px 0;
+        
+    } 
+}
+.redes-txt{
+    @media (max-width: 375px){
+        display: none;
+    }
+}
+.redes{
+    @media (max-width: 375px){
+        display: flex;
+        justify-content: center;
+        li{
+            margin: 0 20px 0 20px;
+            a{
+                font-size: 2rem;
+            
+            }
+        }
+    }
+}
+.mapa{
+    @media (max-width: 375px){
+        position: relative;
+        bottom: 94px;
+        text-align: center;
+        margin: 0 20px 0 20px;
+        .mapa-txt{
+        margin-right: 0px;
+        font-size: 13px;
+        }
+    }
+}
+iframe{
+    @media (max-width: 375px){
+        display:none;
+    }
+}
+.autora{
+    @media (max-width: 375px){
+        .diseño{
+            font-size: 14px;
+        }
+        .iooo{
+            font-size: 14px;
+        }
+    }
 }
 
 
@@ -307,4 +479,4 @@ hr{
 //         height: 100vh;
 //         width: 100%;
 //         clip-path: circle(100px);
-//     }
+//     {}

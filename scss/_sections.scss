@@ -3,8 +3,7 @@
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-content: center;
-    
+    align-content: center;  
 }
 .section-2{
     min-height: 100vh;
@@ -24,6 +23,8 @@
 #hombre{
     padding-top: 50px;
 }
+
+/* ////////////////////////////////////// cards */
 .container{
     width: 100%;
     max-width: 1200px;
@@ -33,7 +34,6 @@
     justify-content: center;
     align-items: center;
 }
-/* ////////////////////////////////////// cards */
 .container .card{
     width: 330px;
     height: 460px;
@@ -97,6 +97,9 @@
     display: flex;
     justify-content: center;
     align-content: center;
+}
+.catalogo-btn{
+    display: none;
 }
 .circulo-bg{
     width: 1000px;

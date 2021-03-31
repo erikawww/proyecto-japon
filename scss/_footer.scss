@@ -26,6 +26,7 @@
 }
 /* LOGO */
 .logo-white{
+    grid-area: logo;
     display: flex;
     align-items: center;
     margin-right: 250px;
@@ -88,7 +89,6 @@
 /* MAPA */
 .mapa{
     grid-area: mapa;
-    
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
