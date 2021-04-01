@@ -233,7 +233,7 @@
 .nav-links.open{
     @media screen and (max-width: 768px){
         clip-path: circle(396px at 81% 8%);
-        -webkit-clip-path: circle(100px at 81% 8%);
+        -webkit-clip-path: circle(396px at 81% 8%);
     }
 }
 
@@ -260,27 +260,6 @@
     background-color: $color-azul;
     transition: ease 1s;
 }
-
-
-
-
-
-
-
-
-@media screen and (max-width: 768px){
-    @keyframes navLinkFade{
-            from{
-                opacity: 0;
-                transform: translateX(50px);
-            }
-            to{
-                opacity: 1;
-                transform: translateX(0px);
-            }
-        }
-    }
-
 
 hr{
     @media screen and (max-width: 768px){

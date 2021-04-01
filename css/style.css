@@ -22,6 +22,9 @@ body {
 .status {
   display: none; }
 
+.burguer-menu {
+  display: none; }
+
 .logo {
   display: flex;
   justify-content: center;
@@ -732,7 +735,7 @@ iframe {
 @media screen and (max-width: 768px) {
   .nav-links.open {
     clip-path: circle(396px at 81% 8%);
-    -webkit-clip-path: circle(100px at 81% 8%); } }
+    -webkit-clip-path: circle(396px at 81% 8%); } }
 
 @media screen and (max-width: 768px) {
   .nav-item:hover {
@@ -750,15 +753,6 @@ iframe {
   .cabecera.blue {
     background-color: #223150;
     transition: ease 1s; } }
-
-@media screen and (max-width: 768px) and (max-width: 768px) {
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px); }
-    to {
-      opacity: 1;
-      transform: translateX(0px); } } }
 
 @media screen and (max-width: 768px) and (max-width: 768px) {
   hr {
