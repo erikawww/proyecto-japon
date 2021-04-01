@@ -25,10 +25,13 @@ body {
 .burguer-menu {
   display: none; }
 
-.logo {
+.logo-header {
   display: flex;
   justify-content: center;
   padding: 20px; }
+
+.logo-header-white {
+  display: none; }
 
 hr {
   border: 1px solid #222222;
@@ -566,7 +569,8 @@ iframe {
 
 @media (max-width: 1440px) {
   .cabecera {
-    padding-top: 39px; } }
+    padding-top: 39px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); } }
 
 @media (max-width: 1440px) {
   .ropa-img {
@@ -670,7 +674,8 @@ iframe {
 @media screen and (max-width: 768px) {
   .cabecera {
     padding-top: 0px;
-    display: flex; } }
+    display: flex;
+    background-color: #223150; } }
 
 @media screen and (max-width: 768px) {
   .logo {
@@ -680,10 +685,15 @@ iframe {
     padding: 20px 0 0 30px; } }
 
 @media (max-width: 768px) {
-  .logo-header {
+  .logo-header-white {
+    display: flex;
     height: 50px;
     width: auto;
     margin-left: 7px; } }
+
+@media (max-width: 768px) {
+  .logo-header {
+    display: none; } }
 
 @media screen and (max-width: 768px) {
   .nav-bar {
@@ -693,7 +703,7 @@ iframe {
       flex-direction: column;
       text-align: center; }
       .nav-bar ul li {
-        margin: 25px 0 25px 0; }
+        margin: 20px 0 20px 0; }
         .nav-bar ul li a {
           color: white;
           font-weight: 400;
@@ -712,7 +722,7 @@ iframe {
     .burguer-menu div {
       width: 25px;
       height: 3px;
-      background-color: black;
+      background-color: #fefefe;
       margin-bottom: 5px; } }
 
 #menu {
@@ -727,7 +737,7 @@ iframe {
     width: 100%;
     clip-path: circle(100px at 90% -40%);
     -webkit-clip-path: circle(100px at 90% -40%);
-    transition: all .6s ease-out;
+    transition: all .4s ease-out;
     z-index: 5000; }
     .nav-links a {
       color: #fefefe; } }
@@ -737,6 +747,10 @@ iframe {
     clip-path: circle(396px at 81% 8%);
     -webkit-clip-path: circle(396px at 81% 8%); } }
 
+.cabecera.blue {
+  background-color: #223150;
+  transition: .1s ease-out; }
+
 @media screen and (max-width: 768px) {
   .nav-item:hover {
     display: none; } }
@@ -744,15 +758,12 @@ iframe {
 @media screen and (max-width: 768px) {
   .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
-    background-color: #fefefe; }
+    transition: .3s ease-in; }
   .toggle .line2 {
     opacity: 0; }
   .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
-    background-color: #fefefe; }
-  .cabecera.blue {
-    background-color: #223150;
-    transition: ease 1s; } }
+    transition: .3s ease-in; } }
 
 @media screen and (max-width: 768px) and (max-width: 768px) {
   hr {

@@ -11,10 +11,13 @@
 .burguer-menu{
     display: none;
 }
-.logo{
+.logo-header{
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+.logo-header-white{
+    display: none;
 }
 hr{
     border: 1px solid $color-negro;

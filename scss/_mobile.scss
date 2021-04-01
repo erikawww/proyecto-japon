@@ -6,6 +6,7 @@
 .cabecera{
     @media (max-width: 1440px){
         padding-top: 39px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     }
 }
 .ropa-img{
@@ -152,6 +153,7 @@
     @media screen and (max-width: 768px){
         padding-top: 0px;
         display: flex;
+        background-color: $color-azul;
         
     }
 }
@@ -164,14 +166,19 @@
         padding: 20px 0 0 30px;
     }
 }
-.logo-header{
+.logo-header-white{
     @media (max-width: 768px){
+        display: flex;
         height: 50px;
         width: auto;
         margin-left: 7px;
     }
 }
-
+.logo-header{
+    @media (max-width: 768px){
+        display: none;
+    }
+}
 .nav-bar{
     @media screen and (max-width: 768px){
         position: relative;
@@ -181,7 +188,7 @@
             text-align: center;
             
             li{
-                margin: 25px 0 25px 0;
+                margin: 20px 0 20px 0;
                 a{
                     color:white;
                     font-weight: 400;
@@ -205,7 +212,7 @@
             div{
                 width: 25px;
                 height: 3px;
-                background-color: black;
+                background-color: $color-blanco;
                 margin-bottom: 5px;
             }
     }
@@ -223,7 +230,7 @@
         width: 100%;
         clip-path: circle(100px at 90% -40%);
         -webkit-clip-path: circle(100px at 90% -40%);
-        transition: all .6s ease-out;
+        transition: all .4s ease-out;
         z-index: 5000;
         a{
             color: $color-blanco;
@@ -236,7 +243,10 @@
         -webkit-clip-path: circle(396px at 81% 8%);
     }
 }
-
+.cabecera.blue{
+    background-color: $color-azul;
+    transition: .1s ease-out;
+}
 
 .nav-item:hover{
     @media screen and (max-width: 768px){
@@ -246,26 +256,25 @@
 @media screen and (max-width: 768px){
     .toggle .line1{
         transform: rotate(-45deg) translate(-5px,6px);
-        background-color: $color-blanco;
+        // background-color: $color-blanco;
+        transition: .3s ease-in;
     }
     .toggle .line2{
         opacity: 0;
     }
     .toggle .line3{
         transform: rotate(45deg) translate(-5px,-6px);
-        background-color: $color-blanco;
+        // background-color: $color-blanco;
+        transition: .3s ease-in;
     }
-
-.cabecera.blue{
-    background-color: $color-azul;
-    transition: ease 1s;
-}
 
 hr{
     @media screen and (max-width: 768px){
         display: none;
     }
 }
+
+
 // main--------------------------------------------------
 
 .splash-main{
