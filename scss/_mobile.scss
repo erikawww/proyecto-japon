@@ -149,13 +149,15 @@
 
 // ------------------------ header
 .cabecera{
-    @media screen and (max-width: 375px){
+    @media screen and (max-width: 768px){
         padding-top: 0px;
+        display: flex;
+        
     }
 }
 
 .logo{
-    @media screen and (max-width: 375px){
+    @media screen and (max-width: 768px){
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -163,26 +165,132 @@
     }
 }
 .logo-header{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         height: 50px;
         width: auto;
+        margin-left: 7px;
     }
-    
 }
+
 .nav-bar{
-    @media screen and (max-width: 375px){
+    @media screen and (max-width: 768px){
+        position: relative;
+        ul{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            
+            li{
+                margin: 25px 0 25px 0;
+                a{
+                    color:white;
+                    font-weight: 400;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+    @media screen and (max-width: 768px){
+        .burguer-menu{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            top: -35px;
+            right: -127px;
+            cursor: pointer;
+            div{
+                width: 25px;
+                height: 3px;
+                background-color: black;
+                margin-bottom: 5px;
+            }
+    }
+}
+#menu{
+    font-size: 1.8rem;
+}
+
+.nav-links{
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        position: fixed;
+        background: $color-azul;
+        height: 95vh;
+        width: 100%;
+        clip-path: circle(100px at 90% -40%);
+        -webkit-clip-path: circle(100px at 90% -40%);
+        transition: all .6s ease-out;
+        z-index: 5000;
+        a{
+            color: $color-blanco;
+        }
+    }
+}
+.nav-links.open{
+    @media screen and (max-width: 768px){
+        clip-path: circle(396px at 81% 8%);
+        -webkit-clip-path: circle(100px at 81% 8%);
+    }
+}
+
+
+.nav-item:hover{
+    @media screen and (max-width: 768px){
         display: none;
     }
 }
+@media screen and (max-width: 768px){
+    .toggle .line1{
+        transform: rotate(-45deg) translate(-5px,6px);
+        background-color: $color-blanco;
+    }
+    .toggle .line2{
+        opacity: 0;
+    }
+    .toggle .line3{
+        transform: rotate(45deg) translate(-5px,-6px);
+        background-color: $color-blanco;
+    }
+
+.cabecera.blue{
+    background-color: $color-azul;
+    transition: ease 1s;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    @keyframes navLinkFade{
+            from{
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to{
+                opacity: 1;
+                transform: translateX(0px);
+            }
+        }
+    }
+
+
 hr{
-    @media screen and (max-width: 375px){
+    @media screen and (max-width: 768px){
         display: none;
     }
 }
 // main--------------------------------------------------
 
 .splash-main{
-        @media (max-width: 375px){
+        @media (max-width: 768px){
             overflow: hidden;
             overflow-y: hidden;
             overflow-x: hidden;
@@ -195,14 +303,14 @@ hr{
     }
 
 .texto{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         grid-area: texto;
         margin-top: 48px;
         margin-left: 15px;
         margin-right: 52px;
     }
     p{
-        @media (max-width: 375px){
+        @media (max-width: 768px){
             font-size: 15px;
             font-weight: 400;
             line-height: 15px;
@@ -211,7 +319,7 @@ hr{
     }
 }
 .contenedorImg{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         grid-area: contenedorImg;
         // height: 100vh;
         // width: 100vh;
@@ -221,22 +329,22 @@ hr{
 }
 
 .circulo{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         // display: none;
         position: relative;
         width: 400px;
         height: 400px;
-        left: 144px;
+        left: 163px;
         top: 47px;
         overflow: hidden;
     }
 }
 .ropa-img{
-        @media (max-width: 375px){
+        @media (max-width: 768px){
             position: relative;
             width: auto;
             height: 385px;
-            left: -36px;
+            left: -13px;
             top: 85px;
         }
 }
@@ -244,19 +352,19 @@ hr{
 
 // --------------------------------- SECTIONS
 h2{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
             font-size: 26px;
     }
 }
 #hombre{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         padding-top: 0;
         padding-bottom: 0;
         margin-top: 60px;
     }
 }
 #mujer{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         margin-top: 60px;
     }
 }
@@ -269,7 +377,7 @@ h2{
 //     }
 // }
 .section-1{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -279,7 +387,7 @@ h2{
 }
 
 .section-2{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -289,14 +397,14 @@ h2{
 }
 /* ////////////////////////////////////// cards */
 .container{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         width: 303px;
         height: 296px;
         margin-bottom: 210px;
     }
 }
 .container .card{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         width: 330px;
         height: 460px;
         border-radius: 8px;
@@ -308,23 +416,23 @@ h2{
     }
 }
 .container2{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         display: none;
     }
 }
 .search-box{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         width: 340px;
         margin-top: 44px;
     }
 }
 .contenedor-cards{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         display: none;
     }
 }
 .catalogo-btn{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         text-decoration: none;
         border-radius: 50px;
         background-color: $color-rojo;
@@ -341,7 +449,7 @@ h2{
 }
 .nav-catalogo{
     ul{
-        @media (max-width: 375px){
+        @media (max-width: 768px){
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -353,24 +461,24 @@ h2{
     }
 }
 .circulo-bg{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         display: none;
     }
 }
 .arrow-up{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         display: none;
     }
 }
 // -------------------    footer
 
 .pie-pagina{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         height: 65vh;
     }
 }
 .waves-img{
-    @media (max-width: 375px) {
+    @media (max-width: 768px) {
         margin-top: -315px;
         left: -501px;
         width: 1094px;
@@ -381,7 +489,7 @@ h2{
 }
 
 .contenedor-footer{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -389,7 +497,7 @@ h2{
     } 
 }
 .logo-white{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
        margin-right: 0px;
        margin-bottom: 25px;
         .logo-img{
@@ -399,7 +507,7 @@ h2{
     }
 }
 .contenedor-redes{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         position: relative;
         bottom: -95px;
         margin-right: 0px;
@@ -408,12 +516,12 @@ h2{
     } 
 }
 .redes-txt{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         display: none;
     }
 }
 .redes{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         display: flex;
         justify-content: center;
         li{
@@ -426,7 +534,7 @@ h2{
     }
 }
 .mapa{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         position: relative;
         bottom: 94px;
         text-align: center;
@@ -438,12 +546,12 @@ h2{
     }
 }
 iframe{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         display:none;
     }
 }
 .autora{
-    @media (max-width: 375px){
+    @media (max-width: 768px){
         .diseño{
             font-size: 14px;
         }
@@ -456,27 +564,5 @@ iframe{
 
 
 
-//     .line{
-//         width: 30px;
-//         height: 30px;
-//         background: $color-rojo;
-//         margin: 5px;
-//     }
-//     .nav-bar{
-//         position: relative;
-//     }
-//     .burguer-menu{
-//         position: absolute;
-//         cursor: pointer;
-//         right: 5%;
-//         top: 50%;
-//         transform: translate (-5%, -50%)
-//     }
-
-//     .nav-links{
-//         position: fixed;
-//         background: $color-azul;
-//         height: 100vh;
-//         width: 100%;
-//         clip-path: circle(100px);
-//     {}
+//  
+}
