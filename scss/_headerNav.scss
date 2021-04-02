@@ -3,13 +3,17 @@
     display: flex;
     flex-flow: column;
     justify-content: center;
-    padding-top: 60px;
 }
 .status{
     display: none;
 }
 .burguer-menu{
     display: none;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 .logo-header{
     display: flex;
