@@ -153,8 +153,7 @@
         padding-top: 0px;
         display: flex;
         background-color: $color-azul;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-        
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
     }
 }
 
@@ -182,13 +181,14 @@
 .nav-bar{
     @media screen and (max-width: 768px){
         position: relative;
+        padding: 0;
         ul{
             display: flex;
             flex-direction: column;
             text-align: center;
             
             li{
-                margin: 20px 0 20px 0;
+                margin: 35px 0 35px 0;
                 a{
                     color:white;
                     font-weight: 400;
@@ -228,6 +228,7 @@
         background: $color-azul;
         height: 95vh;
         width: 100%;
+        top: 90px;
         clip-path: circle(100px at 90% -40%);
         -webkit-clip-path: circle(100px at 90% -40%);
         transition: all .4s ease-out;
