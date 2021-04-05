@@ -231,7 +231,7 @@
         top: 90px;
         clip-path: circle(100px at 90% -40%);
         -webkit-clip-path: circle(100px at 90% -40%);
-        transition: all .4s ease-out;
+        transition: all .2s ease-out;
         z-index: 5000;
         a{
             color: $color-blanco;
@@ -258,7 +258,7 @@
     .toggle .line1{
         transform: rotate(-45deg) translate(-5px,6px);
         // background-color: $color-blanco;
-        transition: .3s ease-in;
+        transition: .3s ease-in-out;
     }
     .toggle .line2{
         opacity: 0;
@@ -266,7 +266,7 @@
     .toggle .line3{
         transform: rotate(45deg) translate(-5px,-6px);
         // background-color: $color-blanco;
-        transition: .3s ease-in;
+        transition: .3s ease-in-out;
     }
 
 hr{
@@ -382,6 +382,7 @@ h2{
         justify-content: space-between;
         align-items: center; 
         padding-top: 20px;
+        padding-bottom: 60px;
     }
 }
 /* ////////////////////////////////////// cards */

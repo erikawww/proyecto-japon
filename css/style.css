@@ -168,7 +168,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-content: center;
-  background-image: linear-gradient(to bottom, #222222, #2c2b2b); }
+  background-color: #222222; }
 
 #mujer {
   background-color: #222222;
@@ -724,7 +724,7 @@ iframe {
     top: 90px;
     clip-path: circle(100px at 90% -40%);
     -webkit-clip-path: circle(100px at 90% -40%);
-    transition: all .4s ease-out;
+    transition: all .2s ease-out;
     z-index: 5000; }
     .nav-links a {
       color: #fefefe; } }
@@ -745,12 +745,12 @@ iframe {
 @media screen and (max-width: 768px) {
   .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
-    transition: .3s ease-in; }
+    transition: .3s ease-in-out; }
   .toggle .line2 {
     opacity: 0; }
   .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
-    transition: .3s ease-in; } }
+    transition: .3s ease-in-out; } }
 
 @media screen and (max-width: 768px) and (max-width: 768px) {
   hr {
@@ -831,7 +831,8 @@ iframe {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px; } }
+    padding-top: 20px;
+    padding-bottom: 60px; } }
 
 @media screen and (max-width: 768px) {
   /* ////////////////////////////////////// cards */ }
