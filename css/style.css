@@ -703,7 +703,7 @@ iframe {
     align-items: center;
     position: relative;
     top: -35px;
-    right: -127px;
+    right: -154px;
     cursor: pointer; }
     .burguer-menu div {
       width: 25px;
@@ -861,7 +861,7 @@ iframe {
 @media screen and (max-width: 768px) and (max-width: 768px) {
   .search-box {
     width: 340px;
-    margin-top: 44px; } }
+    margin-top: -59px; } }
 
 @media screen and (max-width: 768px) and (max-width: 768px) {
   .contenedor-cards {
