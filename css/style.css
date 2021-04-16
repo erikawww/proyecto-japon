@@ -176,7 +176,7 @@ h2 {
   padding-top: 50px; }
 
 #catalogo {
-  margin-top: 50px; }
+  margin-top: 70px; }
 
 #hombre {
   padding-top: 50px; }
@@ -703,7 +703,7 @@ iframe {
     align-items: center;
     position: relative;
     top: -35px;
-    right: -154px;
+    right: -139px;
     cursor: pointer; }
     .burguer-menu div {
       width: 25px;
@@ -734,10 +734,6 @@ iframe {
     clip-path: circle(396px at 81% 8%);
     -webkit-clip-path: circle(396px at 81% 8%); } }
 
-.cabecera.blue {
-  background-color: #223150;
-  transition: .1s ease-out; }
-
 @media screen and (max-width: 768px) {
   .nav-item:hover {
     display: none; } }
@@ -745,12 +741,12 @@ iframe {
 @media screen and (max-width: 768px) {
   .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
-    transition: .3s ease-in-out; }
+    transition: .1s ease-in-out; }
   .toggle .line2 {
     opacity: 0; }
   .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
-    transition: .3s ease-in-out; } }
+    transition: .1s ease-in-out; } }
 
 @media screen and (max-width: 768px) and (max-width: 768px) {
   hr {
@@ -811,11 +807,11 @@ iframe {
   #hombre {
     padding-top: 0;
     padding-bottom: 0;
-    margin-top: 60px; } }
+    margin-top: 76px; } }
 
 @media screen and (max-width: 768px) and (max-width: 768px) {
   #mujer {
-    margin-top: 60px; } }
+    margin-top: 70px; } }
 
 @media screen and (max-width: 768px) and (max-width: 768px) {
   .section-1 {
@@ -861,7 +857,7 @@ iframe {
 @media screen and (max-width: 768px) and (max-width: 768px) {
   .search-box {
     width: 340px;
-    margin-top: -59px; } }
+    margin-top: 3px; } }
 
 @media screen and (max-width: 768px) and (max-width: 768px) {
   .contenedor-cards {
@@ -881,6 +877,15 @@ iframe {
     font-size: 1.2rem;
     line-height: 25px;
     margin-top: 75px; } }
+
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  .search-txt {
+    text-align: center;
+    padding-left: 0px; } }
+
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  .search-btn {
+    display: none; } }
 
 @media screen and (max-width: 768px) and (max-width: 768px) {
   .nav-catalogo ul {
@@ -962,7 +967,9 @@ iframe {
     display: none; } }
 
 @media screen and (max-width: 768px) and (max-width: 768px) {
-  .autora .diseño {
-    font-size: 14px; }
-  .autora .iooo {
-    font-size: 14px; } }
+  .autora {
+    padding-top: 21px; }
+    .autora .diseño {
+      font-size: 14px; }
+    .autora .iooo {
+      font-size: 14px; } }

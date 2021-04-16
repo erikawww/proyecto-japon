@@ -8,6 +8,11 @@ burguerMenu.addEventListener("click", () =>{
     burguerMenu.classList.toggle("toggle");
     // cabe.classList.toggle("blue")
     
-    }); 
-    
+    });
+
+
+    // Fullpage
+    const seccionesPagina = new fullpage('#fullpage', {
+        
+    });
 

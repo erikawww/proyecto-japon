@@ -31,7 +31,6 @@
     h1{
         @media (max-width: 1440px){
             font-size: 22px;
-           
             }
         
     }
@@ -207,7 +206,7 @@
             align-items: center;
             position: relative;
             top: -35px;
-            right: -154px;
+            right: -139px;
             cursor: pointer;
             div{
                 width: 25px;
@@ -244,10 +243,10 @@
         -webkit-clip-path: circle(396px at 81% 8%);
     }
 }
-.cabecera.blue{
-    background-color: $color-azul;
-    transition: .1s ease-out;
-}
+// .cabecera.blue{
+//     background-color: $color-azul;
+//     transition: .1s ease-out;
+// }
 
 .nav-item:hover{
     @media screen and (max-width: 768px){
@@ -258,7 +257,7 @@
     .toggle .line1{
         transform: rotate(-45deg) translate(-5px,6px);
         // background-color: $color-blanco;
-        transition: .3s ease-in-out;
+        transition: .1s ease-in-out;
     }
     .toggle .line2{
         opacity: 0;
@@ -266,7 +265,7 @@
     .toggle .line3{
         transform: rotate(45deg) translate(-5px,-6px);
         // background-color: $color-blanco;
-        transition: .3s ease-in-out;
+        transition: .1s ease-in-out;
     }
 
 hr{
@@ -349,12 +348,12 @@ h2{
     @media (max-width: 768px){
         padding-top: 0;
         padding-bottom: 0;
-        margin-top: 60px;
+        margin-top: 76px;
     }
 }
 #mujer{
     @media (max-width: 768px){
-        margin-top: 60px;
+        margin-top: 70px;
     }
 }
 // #catalogo{
@@ -413,7 +412,7 @@ h2{
 .search-box{
     @media (max-width: 768px){
         width: 340px;
-        margin-top: -59px;
+        margin-top: 3px;
     }
 }
 .contenedor-cards{
@@ -435,6 +434,17 @@ h2{
         font-size: 1.2rem;
         line-height: 25px;
         margin-top: 75px;
+    }
+}
+.search-txt{
+    @media (max-width: 768px){
+        text-align: center;
+        padding-left: 0px;
+    }
+}
+.search-btn{
+    @media (max-width: 768px){
+        display: none;
     }
 }
 .nav-catalogo{
@@ -542,6 +552,7 @@ iframe{
 }
 .autora{
     @media (max-width: 768px){
+        padding-top: 21px;
         .diseño{
             font-size: 14px;
         }
