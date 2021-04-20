@@ -550,20 +550,105 @@ iframe{
         display:none;
     }
 }
-.autora{
-    @media (max-width: 768px){
-        padding-top: 21px;
-        .diseño{
-            font-size: 14px;
+    .autora{
+        @media (max-width: 768px){
+            padding-top: 21px;
+            .diseño{
+                font-size: 14px;
+            }
+            .iooo{
+                font-size: 14px;
+            }
         }
-        .iooo{
-            font-size: 14px;
+    }
+}
+
+// Responsive pop up cards 
+
+@media screen and (max-width: 768px){
+    .popup-card{
+        flex-direction: column;
+        width: 550px;
+        height: auto;
+        position: relative;
+        top: -379px;
+    }
+}
+@media screen and (max-width: 768px){
+    .popup-card{
+        width: 80%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 768px){
+    .product-img {
+        height: 491px;
+        width: auto;
+        position: relative;
+        left: 7px;
+        border-radius: 8px;
+        img{
+            height: 511px;
+            width: auto;
+            position: relative;
+            left: 0px;
+            top: 30px;
         }
+    }
+}
+@media screen and (max-width: 768px){
+    .info{
+        width: 104%;
+        position: relative;
+        top: -38px;
+    }
+}
+@media screen and (max-width: 768px){
+    .info-txt{
+        font-size: 17px;
+        font-weight: 300;
+    }
+}    
+
+
+@media screen and (max-width: 768px){
+    .price{
+        font-size: 40px;
+        font-weight: 400;
+        margin: 15px 0 30px 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .product-img{
+        width: 332px;
+        border-radius: 8px;
+        position: relative;
+        left: 6px;
+        img{
+            height: 522px;
+            top: 11px;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .add-cart-btn{
+        font-weight: 400;
+        font-size: 13px;
     }
 }
 
 
 
 
-//  
+@media screen and (max-width: 768px){
+    .close-btn{
+        color: $color-blanco;
+        z-index: 650;
+        position: absolute;
+        right: -6px;
+        font-size: 20px;
+        margin: 20px;
+        cursor: pointer;
+    }
 }

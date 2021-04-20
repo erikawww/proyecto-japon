@@ -220,11 +220,11 @@ h2 {
   font-size: 1.8rem; }
 
 .container .card p {
-  font-size: 1.2rem;
-  margin-bottom: 10px; }
+  font-size: 1.6rem;
+  margin-bottom: 2px;
+  font-weight: 500; }
 
 .card-btn {
-  /* font-weight: 300; */
   text-decoration: none;
   border-radius: 50px;
   background-color: #BC002D;
@@ -236,8 +236,8 @@ h2 {
   display: inline-block;
   padding: 10px 20px;
   font-size: 1.2rem;
-  /* text-align: center; */
-  line-height: 25px; }
+  line-height: 25px;
+  cursor: pointer; }
 
 .card-btn:hover {
   color: #BC002D;
@@ -245,6 +245,98 @@ h2 {
 
 .card-parrafo {
   padding: 8px; }
+
+/* ////////////////////////////////////// pop up card */
+.popup-view {
+  z-index: 600;
+  background-color: rgba(34, 33, 33, 0.7);
+  position: fixed;
+  top: -2394px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s; }
+
+.popup-view.active {
+  opacity: 1;
+  visibility: visible; }
+
+.popup-card {
+  position: relative;
+  display: flex;
+  height: 562px;
+  margin: 20px;
+  width: 845px; }
+
+.product-img {
+  z-index: 550;
+  background: #223150;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 372px;
+  left: 7px;
+  border-radius: 8px 0px 0px 8px;
+  box-shadow: 0 10px 13px rgba(32, 32, 32, 0.1); }
+  .product-img img {
+    height: 600px;
+    width: auto;
+    position: relative;
+    left: -38px; }
+
+.info {
+  z-index: 550;
+  background: #fefefe;
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  height: 103%;
+  box-sizing: border-box;
+  padding: 40px;
+  border-radius: 8px;
+  position: relative;
+  top: -10px;
+  box-shadow: 0 10px 13px rgba(32, 32, 32, 0.1); }
+
+.info-title {
+  padding: 0px;
+  justify-content: start;
+  margin-top: 13px; }
+
+.info-txt {
+  font-size: 18px;
+  padding: 20px 20px 20px 0px;
+  font-weight: 300; }
+
+.price {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 15px 0 135px 0; }
+
+.add-cart-btn {
+  color: #fefefe;
+  background: #BC002D;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px auto;
+  padding: 18px 50px;
+  border-radius: 50px; }
+
+.close-btn {
+  color: #222222;
+  z-index: 650;
+  position: absolute;
+  right: 12px;
+  font-size: 20px;
+  margin: 20px;
+  cursor: pointer; }
 
 /* ========================== CATÁLOGO ========================== */
 .section-3 {
@@ -293,7 +385,7 @@ h2 {
   background: #fefefe;
   width: 1000px;
   height: 63px;
-  z-index: 3000;
+  z-index: 400;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -546,7 +638,7 @@ iframe {
   align-items: center;
   cursor: pointer;
   top: 5161px;
-  z-index: 4000; }
+  z-index: 500; }
 
 .arrow-img {
   height: 30px;
@@ -973,3 +1065,72 @@ iframe {
       font-size: 14px; }
     .autora .iooo {
       font-size: 14px; } }
+
+@media screen and (max-width: 768px) {
+  .popup-card {
+    flex-direction: column;
+    width: 550px;
+    height: auto;
+    position: relative;
+    top: -379px; } }
+
+@media screen and (max-width: 768px) {
+  .popup-card {
+    width: 80%;
+    height: auto; } }
+
+@media screen and (max-width: 768px) {
+  .product-img {
+    height: 491px;
+    width: auto;
+    position: relative;
+    left: 7px;
+    border-radius: 8px; }
+    .product-img img {
+      height: 511px;
+      width: auto;
+      position: relative;
+      left: 0px;
+      top: 30px; } }
+
+@media screen and (max-width: 768px) {
+  .info {
+    width: 104%;
+    position: relative;
+    top: -38px; } }
+
+@media screen and (max-width: 768px) {
+  .info-txt {
+    font-size: 17px;
+    font-weight: 300; } }
+
+@media screen and (max-width: 768px) {
+  .price {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 15px 0 30px 0; } }
+
+@media screen and (max-width: 768px) {
+  .product-img {
+    width: 332px;
+    border-radius: 8px;
+    position: relative;
+    left: 6px; }
+    .product-img img {
+      height: 522px;
+      top: 11px; } }
+
+@media screen and (max-width: 768px) {
+  .add-cart-btn {
+    font-weight: 400;
+    font-size: 13px; } }
+
+@media screen and (max-width: 768px) {
+  .close-btn {
+    color: #fefefe;
+    z-index: 650;
+    position: absolute;
+    right: -6px;
+    font-size: 20px;
+    margin: 20px;
+    cursor: pointer; } }

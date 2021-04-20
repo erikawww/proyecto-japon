@@ -129,7 +129,6 @@ iframe{
 /* flecha pal cielo */
 .arrow-up {
     position: absolute;
-
     right: 150px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     width: 70px;
@@ -143,7 +142,7 @@ iframe{
     align-items: center;
     cursor: pointer;
     top: 5161px;
-    z-index: 4000;
+    z-index: 500;
  
 }
 .arrow-img{
