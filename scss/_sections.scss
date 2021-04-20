@@ -94,7 +94,7 @@
         z-index: 600;
         background-color: rgba(34, 33, 33, 0.7);
         position: fixed;
-        top: -2394px;
+
         right: 0;
         bottom: 0;
         left: 0;
@@ -110,6 +110,7 @@
 .popup-view.active{
     opacity: 1;
     visibility: visible;
+    top: -2394px;
 }
 
 
@@ -119,6 +120,8 @@
     height: 562px;
     margin: 20px;
     width: 845px;
+    position: relative;
+    // top: 1318px;
 }
 .product-img{
     z-index: 550;
@@ -189,43 +192,6 @@
     margin: 20px;
     cursor: pointer;
 }
-// Responsive pop up cards 
-
-// @media screen and (max-width: 768px){
-//     .popup-card{
-//         flex-direction: column;
-//         width: 550px;
-//         height: auto;
-//     }
-// }
-
-// @media screen and (max-width: 768px){
-//     .info{
-//         width:104%    
-// }
-// @media screen and (max-width: 768px){
-//     .product-img{
-//         width: 360px;
-//         border-radius: 8px;
-//         .img{
-//             height: 522px;
-//             ;
-//         }
-// }
-
-
-
-// @media screen and (max-width: 768px){
-// .close-btn{
-//     color: $color-blanco;
-//     z-index: 650;
-//     position: absolute;
-//     right: 5px;
-//     font-size: 20px;
-//     margin: 20px;
-//     cursor: pointer;
-//     }
-// }
 
 
 /* ========================== CATÁLOGO ========================== */
