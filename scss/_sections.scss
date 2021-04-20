@@ -94,7 +94,7 @@
         z-index: 600;
         background-color: rgba(34, 33, 33, 0.7);
         position: fixed;
-
+        top: -2394px;
         right: 0;
         bottom: 0;
         left: 0;
@@ -110,7 +110,6 @@
 .popup-view.active{
     opacity: 1;
     visibility: visible;
-    top: -2394px;
 }
 
 
@@ -121,7 +120,7 @@
     margin: 20px;
     width: 845px;
     position: relative;
-    // top: 1318px;
+    top: 1172px;
 }
 .product-img{
     z-index: 550;
