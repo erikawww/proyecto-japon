@@ -900,7 +900,7 @@ iframe {
 @media screen and (max-width: 768px) and (max-width: 768px) {
   #hombre {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 28px;
     margin-top: 76px; } }
 
 @media screen and (max-width: 768px) and (max-width: 768px) {
@@ -1071,20 +1071,13 @@ iframe {
 @media screen and (max-width: 768px) {
   .popup-card {
     flex-direction: column;
-    width: 550px;
-    height: auto;
-    position: relative;
-    top: -379px; } }
-
-@media screen and (max-width: 768px) {
-  .popup-card {
     width: 80%;
-    height: auto; } }
+    height: 20%; } }
 
 @media screen and (max-width: 768px) {
   .product-img {
-    height: 491px;
     width: auto;
+    height: 294.61px;
     position: relative;
     left: 7px;
     border-radius: 8px; }
@@ -1097,42 +1090,51 @@ iframe {
 
 @media screen and (max-width: 768px) {
   .info {
-    width: 104%;
+    width: 290.57px;
+    height: 381.57px;
     position: relative;
-    top: -38px; } }
+    top: -16px; } }
+
+@media screen and (max-width: 768px) {
+  .info-title {
+    margin-top: 0; } }
 
 @media screen and (max-width: 768px) {
   .info-txt {
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 300; } }
 
 @media screen and (max-width: 768px) {
   .price {
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 400;
-    margin: 15px 0 30px 0; } }
+    margin: -4px 0 30px 0;
+    text-align: center; } }
 
 @media screen and (max-width: 768px) {
   .product-img {
-    width: 332px;
+    width: 271px;
     border-radius: 8px;
     position: relative;
-    left: 6px; }
+    left: 9px; }
     .product-img img {
-      height: 522px;
-      top: 11px; } }
+      height: 343px;
+      top: -2px; } }
 
 @media screen and (max-width: 768px) {
   .add-cart-btn {
     font-weight: 400;
-    font-size: 13px; } }
+    font-size: 13px;
+    position: relative;
+    top: -28px; } }
 
 @media screen and (max-width: 768px) {
   .close-btn {
     color: #fefefe;
     z-index: 650;
     position: absolute;
-    right: -6px;
+    right: 17px;
+    top: -8px;
     font-size: 20px;
     margin: 20px;
     cursor: pointer; } }
