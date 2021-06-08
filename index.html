@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +8,18 @@
     <title>Japon Wear</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css"> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css" integrity="sha512-RVmrWua3k1yTDEOg4Yzs2bK5+Thh7nM6jrhDq/6/5/Mwa0JbYe4pP4YMK5sqghKz01T3DgrwYc57Jaf1PSurCg==" crossorigin="anonymous" /> -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
         <div class="contenedor-full">
             <header class="cabecera">
+                <button id="boton-carrito">
+                    <i class="fas fa-shopping-bag">
+                        <span id="contadorCarrito">0</span>
+                    </i>
+                </button>
                 <div class="logo">
                     <img class="logo-header" src="assets/logo japon.svg" alt="logo">
                     <img class="logo-header-white" src="assets/logo_white.svg" alt="logo alternativo">
@@ -49,9 +54,9 @@
                     </p>
                 </div>   
                 <div class="contenedorImg">
-                    <div class="imgRopa">
-                        <img class="ropa-img" src="assets/kimono2.png">
-                    </div>
+                        <div class="imgRopa">
+                            <img class="ropa-img" src="assets/kimono2.png">
+                        </div>
                     <div class="circulo"></div>
                 </div>
             </div>
@@ -61,33 +66,10 @@
             <div class="section-1">     
 <!------------------------------- cards -------------------------------->
                 <div class="container">
-                    <div class="card">
-                        <img src="assets/kimono2.png">
-                        <h3>Kimono Gold</h3>
-                        <p class="card-parrafo">$3.460</p>
-                        <a class="card-btn">Ver más</a>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="card">
-                        <img src="assets/kimono2.png">
-                        <h3>Kimono Gold</h3>
-                        <p class="card-parrafo">$3.460</p>
-                        <a class="card-btn">Ver más</a>
-                    </div>
-                </div>
-
-                <div class="container">
-                    <div class="card">
-                        <img src="assets/kimono2.png">
-                        <h3>Kimono Gold</h3>
-                        <p class="card-parrafo">$3.460</p>
-                        <a class="card-btn">Ver más</a>
-                    </div>
+                    <!-- cards producto: -->
                 </div>
                 <div class="popup-view">
-                    <div class="popup-card">
+                    <!-- <div class="popup-card">
                         <a><i class="fas fa-times close-btn"></i></i></a>
                         <div class="product-img">
                             <img src="assets/kimono2.png">
@@ -98,52 +80,42 @@
                             <span class="price">$3.460</span>
                             <a href="#" class="add-cart-btn">Agregar al carrito</a>
                         </div>
-                    </div>
-                </div>
-<!------------------------------- /cards -------------------------------->                
+                    </div> -->
+                </div>             
             </div>
+<!------------------------------- Sec. Mujer -------------------------------->               
             <h2 id="mujer">Mujer</h2>
                 <div class="section-2">
-                    <div class="container">
-                        <div class="card">
-                            <img src="assets/kimono2.png">
-                            <h3>Kimono Gold</h3>
-                            <p class="card-parrafo">$3.460</p>
-                            <a class="card-btn" href="#">Ver más</a>
-                        </div>
+                    <div class="container2">
+                    <!-- cards producto: -->
                     </div>
 
-                <div class="container">
-                    <div class="card">
-                        <img src="assets/kimono2.png">
-                        <h3>Kimono Gold</h3>
-                        <p class="card-parrafo">$3.460</p>
-                        <a class="card-btn" href="#">Ver más</a>
+            </div>
+<!----------------------------------- MODAL Cart ------------------------------------------>
+            <div class="modal-contenedor">
+                <div class="modal-carrito">
+                    <p>En el Carrito</p>
+                    <button id="carritoCerrar"><i class="fas fa-times"></i></button>
+                    <div id="carrito-contenedor">
+                    <!-- modal carrito -->
                     </div>
-                </div>
-
-                <div class="container">
-                    <div class="card">
-                        <img src="assets/kimono2.png">
-                        <h3>Kimono Gold</h3>
-                        <p class="card-parrafo">$3.460</p>
-                        <a class="card-btn" href="#">Ver más</a>
-                    </div>
+                    <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
                 </div>
             </div>
+<!------------------------------- Sec. Catálogo -------------------------------->              
             <h2 id="catalogo">Catálogo</h2>
                 <div class="section-3">
-                    
                     <div class="circulo-bg"></div> 
-
-
-<!------------------------------ cards mini -------------------------------->
-                    <div class="contenedor-catalogo"> 
+                    <div class="contenedor-catalogo">
                         <div class="search-box">
                             <input class="search-txt" type="text" name="" placeholder="Buscar por prenda">
-                            <a class="search-btn" href=""><img class="lupa" src="assets/lupa.svg"></a>
+                            <button class="search-btn"><img class="lupa" src="assets/lupa.svg"></button>
                         </div>
-                        <a class="catalogo-btn" href="#">Buscar</a>
+                        <div id="container-buscador">
+                            <!-- cards -->
+                        </div>
+                        </div>
+                        <!-- <a class="catalogo-btn" href="#">Buscar</a>
                         <nav class="nav-catalogo">
                             <ul>
                                 <li>
@@ -156,60 +128,9 @@
                                     <a href="#">Todo</a>
                                 </li>
                             </ul>
-                        </nav>
-                        <div class="contenedor-cards">
-                            <div class="container2">
-                                <div class="card2">
-                                    <img src="assets/kimono2.png">
-                                    <h3>Kimono Gold</h3>
-                                    <p class="card-parrafo">Lorem ipsum dolor sit amet</p>
-                                    <a class="card-btn2" href="#">Comprar</a>
-                                </div>
-                            </div>
-                            <div class="container2">
-                                <div class="card2">
-                                    <img src="assets/kimono2.png">
-                                    <h3>Kimono Gold</h3>
-                                    <p class="card-parrafo">Lorem ipsum dolor sit amet</p>
-                                    <a class="card-btn2" href="#">Comprar</a>
-                                </div>
-                            </div>
-                            <div class="container2">
-                                <div class="card2">
-                                    <img src="assets/kimono2.png">
-                                    <h3>Kimono Gold</h3>
-                                    <p class="card-parrafo">Lorem ipsum dolor sit amet</p>
-                                    <a class="card-btn2" href="#">Comprar</a>
-                                </div>
-                            </div>
-                            <div class="container2">
-                                <div class="card2">
-                                    <img src="assets/kimono2.png">
-                                    <h3>Kimono Gold</h3>
-                                    <p class="card-parrafo">Lorem ipsum dolor sit amet</p>
-                                    <a class="card-btn2" href="#">Comprar</a>
-                                </div>
-                            </div>
-                            <div class="container2">
-                                <div class="card2">
-                                    <img src="assets/kimono2.png">
-                                    <h3>Kimono Gold</h3>
-                                    <p class="card-parrafo">Lorem ipsum dolor sit amet</p>
-                                    <a class="card-btn2" href="#">Comprar</a>
-                                </div>
-                            </div>
-                            <div class="container2">
-                                <div class="card2">
-                                    <img src="assets/kimono2.png">
-                                    <h3>Kimono Gold</h3>
-                                    <p class="card-parrafo">Lorem ipsum dolor sit amet</p>
-                                    <a class="card-btn2" href="#">Comprar</a>
-                                </div>
-                            </div>    
-                        </div>     
+                        </nav> -->
                     </div>   
-                </div>
-                
+                </div>        
         </div>  
         <div class="arrow-up">
             <a href="#"><img class="arrow-img" src="assets/arrow-up.svg"></a>
@@ -217,6 +138,7 @@
         <div class="waves">
             <img class="waves-img" src="assets/Waves_footer2.svg">
         </div>
+<!------------------------------- Footer -------------------------------->   
         <footer class="pie-pagina">
             <div class="contenedor-footer">
                 <div class="logo-white">
@@ -243,8 +165,9 @@
             </div>     
         </footer>
     </div>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.js"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js" integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ==" crossorigin="anonymous"></script> -->
+    <script src="stock.js"></script>
     <script src="app.js"></script>
+    <script src="pop-up.js"></script>
+    <script src="search-box.js"></script>
 </body>
 </html>
