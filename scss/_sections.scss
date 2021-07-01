@@ -34,15 +34,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.container2{
-    width: 100%;
-    max-width: 1561px;
-    height: 800px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
 .container .card{
     width: 330px;
     height: 460px;
@@ -59,24 +51,8 @@
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
     transition: all ease 0.3s;
 }
-.container2 .card{
-    width: 330px;
-    height: 460px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 2px rgba(163, 163, 163, 0.2);
-    margin: 20px;
-    background-color:$color-blanco;
-    text-align: center;
-    transition: all 0.25s;
-}
-.container2 .card:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(233, 231, 231, 0.2);
-    transition: all ease 0.3s;
-}
 
-#container .card{
+.container .card{
     width: 330px;
     height: 460px;
     border-radius: 8px;
@@ -86,6 +62,7 @@
     background-color:$color-blanco;
     text-align: center;
     transition: all 0.25s;
+    margin: 200px 40px 407px;
 }
 
 
@@ -130,20 +107,13 @@
     font-weight: 600;
     font-size: 1.5rem;
 }
-.container2 .card h3{
-    font-weight: 600;
-    font-size: 1.5rem;
-}
+
 .container .card p{
     font-size: 1.6rem;
     margin-bottom: 2px;
     font-weight: 500;;
 }
-.container2 .card p{
-    font-size: 1.6rem;
-    margin-bottom: 2px;
-    font-weight: 500;;
-}
+
 .card-btn{
     text-decoration: none;
     border-radius: 50px;
@@ -336,10 +306,9 @@
     background-color: white;
     min-width: 500px;
     padding: 52px;
-    // margin-top: -100%;
     border-radius: 10px;
     height: 388px;
-}
+  }
 
 .modal-active .modal-carrito {
     margin-top: 0;
@@ -372,7 +341,10 @@
         font-weight: 600;
     }  
 }
-
+.modal-txt {
+    display: flex;
+    justify-content: space-around;
+  }
 .productoEnCarrito {
     margin: 5px 0;
     display: flex;
@@ -395,6 +367,7 @@
     font-size: 66px;
     position: absolute;
     right: 100px;
+    top: 50px;
     background-color: transparent;
     cursor: pointer;
 }
@@ -407,8 +380,26 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-
+.detalles-compra {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  .btn-comprar {
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    background-color: #bc002d;
+    height: 50px;
+    color: #fefefe;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    line-height: 28px;
+    cursor: pointer;
+    font-weight: 400;
+    margin-top: 20px;
+  }
 
 /* ========================== CATÁLOGO ========================== */
 .section-3{
@@ -462,7 +453,7 @@
     background: none;
     border-radius: 50px;
     background: $color-blanco;
-    border: solid 1px rgb(233, 233, 233);
+    border: solid 1px #e9e9e9;
     height: 63px;
     z-index: 400;
     display: flex;
@@ -515,40 +506,6 @@
     outline: none;
  
 }
-
-// .nav-catalogo{
-//     position: relative;
-//     display: flex;
-//     flex-direction: column nowrap;
-//     justify-content: center;
-//     align-content: center;
-//     padding-bottom: 180px;
-//     padding-bottom: 134px;
-//     padding-top: 65px;
-// }
-// .nav-catalogo a:hover{
-//     color: $color-gris;
-// }
-// .nav-catalogo ul{
-//     display: flex;
-//     flex-flow: row nowrap;
-//     list-style: none;
-// }
-// .nav-catalogo li{
-//     margin-left: 50px;
-//     margin-right: 50px;
-//     font-size: 1.5rem;
-//     font-weight: bold;
-//     cursor: pointer;
-// }
-// .nav-catalogo a{
-//     text-decoration: none;
-//     color: $color-footer;
-// }
-// .nav-catalogo a:hover{
-//     color:$color-rojo;
-//     transition: .3s;
-// }
 /* ////////////////////////////////////// cards mini */
 
 #container-buscador{
