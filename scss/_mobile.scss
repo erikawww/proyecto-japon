@@ -1,754 +1,4 @@
-// MEDIA QUERIES
 
-// ///////////////////////// Mac Pro /////////////////////////// 
-
-// /////////////////////////// header
-// .cabecera{
-//     @media (max-width: 1440px){
-//         padding-top: 39px;
-//     }
-// }
-// .ropa-img{
-//     @media (max-width: 1440px){
-//         width: 633.79px;
-//         height: 844.75px;
-//         right: 151px;
-//     }
-// }
-// .circulo{
-//     @media (max-width: 1440px){
-//         position: relative;
-//         height: 900px;
-//         width: 900px;
-//         left: 216px;    
-//     }
-// }
-// .texto{
-//     @media (max-width: 1440px){
-//         margin-right: 0;
-//         margin-top: 220px;
-//     }
-//     h1{
-//         @media (max-width: 1440px){
-//             font-size: 22px;
-//             }
-        
-//     }
-//     p{
-//         font-size: 24px;
-//         font-weight: 400;
-//     }
-// }
-
-// /////////////// main
-// .splash-main{
-//     @media (max-width: 1440px){
-//         display: grid;
-//         grid-template-columns: repeat(auto-fill, minmax(45%-55%, 1fr));
-//         grid-template-rows: 500px;
-//         grid-template-areas:"texto contenedorImg"
-//                             "texto contenedorImg";
-//     }
-
-// }
-// /////////////////// cards
-// .container{
-//     @media (max-width: 1440px){
-//         width: 32%;
-//     }
-// }
-// .container .card p {
-//     @media (max-width: 1440px){
-//         font-size: 18px;
-//         margin-bottom: 10px;
-//     }
-
-// }
-
-
-// .container2 .card2 h3 {
-//     @media (max-width: 1440px){
-//         font-size: 18px;
-//         font-weight: 600;
-//         font-size: 23px;
-//     }
-// }    
-// .card-btn{
-//     @media (max-width: 1440px){
-//         font-size: 18px;
-//         font-weight: 500;
-//     }
-// }
-
-// //////////////////////// sections
-// #mujer{
-//     @media (max-width: 1440px){
-//         padding-top: 34px;
-//         padding-bottom: 14px;
-//     }
-// }
-// #hombre{
-//     @media (max-width: 1440px){
-//         padding-top: 34px;
-//         padding-bottom: 6px;
-//     }
-// }
-// .circulo-bg{
-//     @media (max-width: 1440px){
-//         top: 3581px;
-//     }
-// }
-
-// ///////////////////////////// footer
-// .arrow-up{
-//     @media (max-width: 1440px){
-//         top: 4659px;
-//     }
-
-// }
-// .waves-img{
-//     @media (max-width: 1440px){
-//         width: 1576px;
-//         height: 593px;
-//         left: -1px;
-//         top: 75px;
-//         right: 135px;
-//     }
-
-// }
-// .logo-white {
-//     @media (max-width: 1440px){
-//         display: flex;
-//         align-items: center;
-//         margin-right: 63px;
-//         margin-bottom: 100px;
-//         justify-content: center;
-//     }
-// }
-// .mapa{
-//     @media (max-width: 1440px){
-//         align-items: flex-start;
-//     }
-//     iframe{
-//         @media (max-width: 1440px){
-//             width: 365.38px;
-//         }
-//     }
-// }
-// .autora{
-//     @media (max-width: 1440px){
-//         margin-top: 93px;
-//     }
-// }
-
-
-
-
-// ///////////////////////// Smartphones /////////////////////////// 
-
-// // ------------------------ header
-// .cabecera{
-//     @media screen and (max-width: 768px){
-//         padding-top: 0px;
-//         display: flex;
-//         background-color: $color-azul;
-//         box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-//     }
-// }
-
-// .logo{
-//     @media screen and (max-width: 768px){
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: flex-start;
-//         padding: 20px 0 0 30px;
-//     }
-// }
-// .logo-header-white{
-//     @media (max-width: 768px){
-//         display: flex;
-//         height: 50px;
-//         width: auto;
-//         margin-left: 7px;
-//     }
-// }
-// .logo-header{
-//     @media (max-width: 768px){
-//         display: none;
-//     }
-// }
-
-
-
-
-// #boton-carrito {
-//     @media (max-width: 768px){
-//     margin-left: 264px;
-//     border: none;
-//     color: #223150;
-//     font-size: 66px;
-//     position:sticky;
-//     right: 29px;
-//     top: 539px;
-//     background-color: transparent;
-//     cursor: pointer;
-//     z-index: 600;
-//     background-color: #FAD840;
-//     border-radius: 50px;
-//     height: 92px;
-//     width: 92px;
-//     }
-// }
-
-// #contadorCarrito{
-//     @media (max-width: 768px){
-//         background-color: #BC002D;
-//         padding: 7px 11px;
-//         border-radius: 50px;
-//         height: 100px;
-//         width: 100px;
-//         font-size: 0.8rem;
-//         font-family: 'Ubuntu', sans-serif;
-//         color: #fefefe;
-//         position: relative;
-//         right: 35px;
-// }
-// }
-
-// .iconoBag {
-//     font-weight: 900;
-//     position: relative;
-//     top: 16px;
-// }
-// .iconoBag {
-//     @media (max-width: 768px){
-//         font-size: 54px;
-//         top: -6px;
-//         right: -22px;
-//     }
-//     }
-
-
-
-// .modal-carrito {
-//     @media (max-width: 768px){
-//     position: relative;
-//     top: 25px;
-//     background-color: white;
-//     min-width: 343px;
-//     padding: 52px;
-//     border-radius: 10px;
-//     height: 426px;
-//     }
-// }
-
-// .modal-contenedor {
-//     @media (max-width: 768px){
-//     width: 100vw;
-//     height: 100%;
-
-//     }
-// }
-
-// .nav-bar{
-//     @media screen and (max-width: 768px){
-//         position: relative;
-//         padding: 0;
-//         ul{
-//             display: flex;
-//             flex-direction: column;
-//             text-align: center;
-            
-//             li{
-//                 margin: 35px 0 35px 0;
-//                 a{
-//                     color:white;
-//                     font-weight: 400;
-//                     font-size: 20px;
-//                 }
-//             }
-//         }
-//     }
-// }
-
-//     @media screen and (max-width: 768px){
-//         .burguer-menu{
-//             display: flex;
-//             flex-direction: column;
-//             justify-content: space-between;
-//             align-items: center;
-//             position: relative;
-//             top: -35px;
-//             right: -139px;
-//             cursor: pointer;
-//             div{
-//                 width: 25px;
-//                 height: 3px;
-//                 background-color: $color-blanco;
-//                 margin-bottom: 5px;
-//             }
-//     }
-// }
-// #menu{
-//     font-size: 1.8rem;
-// }
-
-// .nav-links{
-//     @media screen and (max-width: 768px){
-//         flex-direction: column;
-//         position: fixed;
-//         background: $color-azul;
-//         height: 95vh;
-//         width: 100%;
-//         top: 90px;
-//         clip-path: circle(100px at 90% -40%);
-//         -webkit-clip-path: circle(100px at 90% -40%);
-//         transition: all .2s ease-out;
-//         z-index: 5000;
-//         a{
-//             color: $color-blanco;
-//         }
-//     }
-// }
-// .nav-links.open{
-//     @media screen and (max-width: 768px){
-//         clip-path: circle(396px at 81% 8%);
-//         -webkit-clip-path: circle(396px at 81% 8%);
-//     }
-// }
-// // .cabecera.blue{
-// //     background-color: $color-azul;
-// //     transition: .1s ease-out;
-// // }
-
-// .nav-item:hover{
-//     @media screen and (max-width: 768px){
-//         display: none;
-//     }
-// }
-// @media screen and (max-width: 768px){
-//     .toggle .line1{
-//         transform: rotate(-45deg) translate(-5px,6px);
-//         // background-color: $color-blanco;
-//         transition: .1s ease-in-out;
-//     }
-//     .toggle .line2{
-//         opacity: 0;
-//     }
-//     .toggle .line3{
-//         transform: rotate(45deg) translate(-5px,-6px);
-//         // background-color: $color-blanco;
-//         transition: .1s ease-in-out;
-//     }
-
-// hr{
-//     @media screen and (max-width: 768px){
-//         display: none;
-//     }
-// }
-
-
-// // main--------------------------------------------------
-
-// .splash-main{
-//         @media (max-width: 768px){
-//             overflow: hidden;
-//             overflow-y: hidden;
-//             overflow-x: hidden;
-//             display: grid;
-//             grid-template-columns: 100%;
-//             grid-template-rows: auto;
-//             grid-template-areas: "texto" 
-//                                 "contenedorImg";
-//             }
-//     }
-
-// .texto{
-//     @media (max-width: 768px){
-//         grid-area: texto;
-//         margin-top: 48px;
-//         margin-left: 15px;
-//         margin-right: 52px;
-//     }
-//     p{
-//         @media (max-width: 768px){
-//             font-size: 15px;
-//             font-weight: 400;
-//             line-height: 15px;
-//             padding-top: 1px;
-//         }
-//     }
-// }
-// .contenedorImg{
-//     @media (max-width: 768px){
-//         grid-area: contenedorImg;
-//         // height: 100vh;
-//         // width: 100vh;
-//         padding-top: 0;
-//         padding-bottom: 54px;
-//     }
-// }
-
-// .circulo{
-//     @media (max-width: 768px){
-//         // display: none;
-//         position: relative;
-//         width: 400px;
-//         height: 400px;
-//         left: 163px;
-//         top: 47px;
-//         overflow: hidden;
-//     }
-// }
-// .ropa-img{
-//         @media (max-width: 768px){
-//             position: relative;
-//             width: auto;
-//             height: 253px;
-//             left: -13px;
-//             top: -8px;
-//         }
-// }
-
-
-// // --------------------------------- SECTIONS
-// h2{
-//     @media (max-width: 768px){
-//             font-size: 26px;
-//     }
-// }
-// #hombre{
-//     @media (max-width: 768px){
-//         padding-top: 0;
-//         // padding-bottom: 28px;
-//         // margin-top: 76px;
-//     }
-// }
-// #mujer{
-//     @media (max-width: 768px){
-//         margin-top: 70px;
-//     }
-// }
-// .contenedor-catalogo{
-//     @media (max-width: 375px){
-//         width: 116vw;
-//         display: flex;
-//         align-items: center;
-//         flex-flow: column nowrap;
-//     }
-// }
-// .section-1{
-//     @media (max-width: 768px){
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: space-between;
-//         align-items: center; 
-//         padding-top: 20px;
-//     }
-// }
-
-// .section-2{
-//     @media (max-width: 768px){
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: space-between;
-//         align-items: center; 
-//         padding-top: 20px;
-//         padding-bottom: 60px;
-//     }
-// }
-// /* ////////////////////////////////////// cards */
-// .container{
-//     @media (max-width: 768px){
-//         width: 303px;
-//         height: auto;
-//         .card{
-//             width: 330px;
-//             height: 460px;
-//             border-radius: 8px;
-//             box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-//             overflow: hidden;
-//                     margin: 20px;
-//                     background-color:$color-blanco;
-//                     text-align: center;
-//         }
-//     }
-// }
-// // .container .card{
-// //     @media (max-width: 768px){
-// //         width: 330px;
-// //         height: 460px;
-// //         border-radius: 8px;
-// //         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-// //         overflow: hidden;
-// //         margin: 20px;
-// //         background-color:$color-blanco;
-// //         text-align: center;
-// //     }
-// // }
-// .container2{
-//     @media (max-width: 768px){
-//         width: 303px;
-//         height: auto;
-       
-//     }
-// }
-// .search-box{
-//     @media (max-width: 768px){
-//         width: 340px;
-
-//     }
-// }
-// .contenedor-cards{
-//     @media (max-width: 768px){
-//         display: none;
-//     }
-// }
-// .catalogo-btn{
-//     @media (max-width: 768px){
-//         text-decoration: none;
-//         border-radius: 50px;
-//         background-color: $color-rojo;
-//         font-size: 15px;
-//         height: 50px;
-//         font-size: 1.4rem;
-//         color: $color-blanco;
-//         display: inline-block;
-//         padding: 10px 20px;
-//         font-size: 1.2rem;
-//         line-height: 25px;
-//         margin-top: 75px;
-//         display:none;
-//     }
-// }
-// .search-txt{
-//     @media (max-width: 768px){
-//         text-align: left;
-//     }
-// }
-
-// .nav-catalogo{
-//     ul{
-//         @media (max-width: 768px){
-//             display: flex;
-//             flex-direction: column;
-//             justify-content: space-between;
-//             align-items: center;
-//             li{
-//                 padding: 20px;
-//             }    
-//         } 
-//     }
-// }
-// .circulo-bg{
-//     @media (max-width: 768px){
-//         display: none;
-//     }
-// }
-// .arrow-up{
-//     @media (max-width: 768px){
-//         display: none;
-//     }
-// }
-// // -------------------    footer
-
-// .pie-pagina{
-//     @media (max-width: 768px){
-//         height: 65vh;
-//     }
-// }
-// .waves-img{
-//     @media (max-width: 768px) {
-//         margin-top: -315px;
-//         left: -501px;
-//         width: 1094px;
-//         height: 593px;
-//         top: 144px;
-//         right: 135px;
-//     }
-// }
-
-// .contenedor-footer{
-//     @media (max-width: 768px){
-//         display: flex;
-//         flex-direction: column;
-//         justify-content: space-between;
-//         align-items: center;
-//     } 
-// }
-// .logo-white{
-//     @media (max-width: 768px){
-//        margin-right: 0px;
-//        margin-bottom: 25px;
-//         .logo-img{
-//             width: 173px;
-//             height: auto;
-//         }
-//     }
-// }
-// .contenedor-redes{
-//     @media (max-width: 768px){
-//         position: relative;
-//         bottom: -95px;
-//         margin-right: 0px;
-//         margin: 40px 0 40px 0;
-        
-//     } 
-// }
-// .redes-txt{
-//     @media (max-width: 768px){
-//         display: none;
-//     }
-// }
-// .redes{
-//     @media (max-width: 768px){
-//         display: flex;
-//         justify-content: center;
-//         li{
-//             margin: 0 20px 0 20px;
-//             a{
-//                 font-size: 2rem;
-            
-//             }
-//         }
-//     }
-// }
-// .mapa{
-//     @media (max-width: 768px){
-//         position: relative;
-//         bottom: 94px;
-//         text-align: center;
-//         margin: 0 20px 0 20px;
-//         .mapa-txt{
-//         margin-right: 0px;
-//         font-size: 13px;
-//         }
-//     }
-// }
-// iframe{
-//     @media (max-width: 768px){
-//         display:none;
-//     }
-// }
-//     .autora{
-//         @media (max-width: 768px){
-//             padding-top: 21px;
-//             .diseño{
-//                 font-size: 14px;
-//             }
-//             .iooo{
-//                 font-size: 14px;
-//             }
-//         }
-//     }
-// }
-
-// // Responsive pop up cards 
-
-// @media screen and (max-width: 768px){
-//     .popup-card{
-//         flex-direction: column;
-//         width: 80%;
-//         height: 20%;
-//     }
-// }
-
-// @media screen and (max-width: 768px){
-//     .product-img {
-//         width: auto;
-//         height: 294.61px;
-//         position: relative;
-//         left: 7px;
-//         border-radius: 8px;
-//         img{
-//             height: 511px;
-//             width: auto;
-//             position: relative;
-//             left: 0px;
-//             top: 30px;
-//         }
-//     }
-// }
-// @media screen and (max-width: 768px){
-//     .info{
-//         width: 290.57px;
-//         height: 381.57px;
-//         position: relative;
-//         top: -16px;
-//     }
-// }
-// @media screen and (max-width: 768px){
-//     .info-title{
-//         margin-top: 0;
-//     }
-// }
-
-// @media screen and (max-width: 768px){
-//     .info-txt{
-//         // width: 290.57px;
-//         // height: 371.57px;
-//         // position: relative;
-//         // top: -7px;
-//         font-size: 14px;
-//         font-weight: 300;
-//     }
-// } 
-
-
-// @media screen and (max-width: 768px){
-//     .price{
-//         font-size: 25px;
-//         font-weight: 400;
-//         margin: -4px 0 30px 0;
-//         text-align: center;
-//     }
-// }
-
-// @media screen and (max-width: 768px){
-//     .product-img{
-//         width: 271px;
-//         border-radius: 8px;
-//         position: relative;
-//         left: 9px;
-//         img{
-//             height: 343px;
-//             top: -2px;
-//         }
-//     }
-// }
-// @media screen and (max-width: 768px){
-//     .add-cart-btn{
-//         font-weight: 400;
-//         font-size: 13px;
-//         position: relative;
-//         top: -28px;
-//     }
-// }
-
-
-
-
-// @media screen and (max-width: 768px){
-//     .close-btn{
-//         color: $color-blanco;
-//         z-index: 650;
-//         position: absolute;
-//         right: 17px;
-        
-//     top: -8px;
-
-//         font-size: 20px;
-//         margin: 20px;
-//         cursor: pointer;
-//     }
-// }
-
-
-// @media screen and (max-width: 768px){
-// .section-3{
-//     height: 3000px;
-// }
-// }
 
 @media (max-width: 1440px) {
     .cabecera {
@@ -816,17 +66,9 @@
   }
   
   @media (max-width: 1440px) {
-    .container2 .card2 h3 {
-      font-size: 18px;
-      font-weight: 600;
-      font-size: 23px;
-    }
-  }
-  
-  @media (max-width: 1440px) {
     .card-btn {
-      font-size: 18px;
-      font-weight: 500;
+        font-size: 22px;
+        font-weight: 400;
     }
   }
   
@@ -834,6 +76,7 @@
     #mujer {
       padding-top: 34px;
       padding-bottom: 14px;
+      
     }
   }
   
@@ -894,7 +137,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .cabecera {
       padding-top: 0px;
       display: flex;
@@ -903,7 +146,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .logo {
       display: flex;
       flex-direction: row;
@@ -912,7 +155,7 @@
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 375px) {
     .logo-header-white {
       display: flex;
       height: 50px;
@@ -921,13 +164,13 @@
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 375px) {
     .logo-header {
       display: none;
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 375px) {
     #boton-carrito {
       margin-left: 255px;
       border: none;
@@ -946,7 +189,7 @@
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 375px) {
     #contadorCarrito {
       background-color: #bc002d;
       padding: 7px 11px;
@@ -967,7 +210,7 @@
     top: 16px;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 375px) {
     .iconoBag {
       font-size: 54px;
       top: -6px;
@@ -975,7 +218,7 @@
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 375px) {
     .modal-carrito {
       position: relative;
       top: 25px;
@@ -986,14 +229,14 @@
       height: 426px;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 375px) {
     .modal-contenedor {
       width: 100vw;
       height: 100%;
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .nav-bar {
       position: relative;
       padding: 0;
@@ -1009,11 +252,11 @@
     .nav-bar ul li a {
       color: white;
       font-weight: 400;
-      font-size: 20px;
+      font-size: 22px;
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .burguer-menu {
       display: flex;
       flex-direction: column;
@@ -1036,11 +279,11 @@
     font-size: 1.8rem;
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .nav-links {
       flex-direction: column;
       position: fixed;
-      background: #223150;
+      background: linear-gradient(to bottom, #223150, #222);
       height: 95vh;
       width: 100%;
       top: 90px;
@@ -1054,20 +297,20 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .nav-links.open {
       clip-path: circle(396px at 81% 8%);
       -webkit-clip-path: circle(396px at 81% 8%);
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .nav-item:hover {
       display: none;
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .toggle .line1 {
       transform: rotate(-45deg) translate(-5px, 6px);
       transition: 0.1s ease-in-out;
@@ -1081,13 +324,13 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px)  {
     hr {
       display: none;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .splash-main {
       overflow: hidden;
       overflow-y: hidden;
@@ -1101,7 +344,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px)  {
     .texto {
       grid-area: texto;
       margin-top: 48px;
@@ -1110,7 +353,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px)  {
     .texto p {
       font-size: 15px;
       font-weight: 400;
@@ -1119,7 +362,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .contenedorImg {
       grid-area: contenedorImg;
       padding-top: 0;
@@ -1127,7 +370,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px){
     .circulo {
       position: relative;
       width: 400px;
@@ -1138,7 +381,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .ropa-img {
       position: relative;
       width: auto;
@@ -1148,25 +391,26 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     h2 {
       font-size: 26px;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     #hombre {
       padding-top: 0;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     #mujer {
-      margin-top: 70px;
+        margin-top: 70px;
+        padding-bottom: 1066px;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 375px) {
+  @media screen and (max-width: 375px){
     .contenedor-catalogo {
       width: 116vw;
       display: flex;
@@ -1174,18 +418,33 @@
       flex-flow: column nowrap;
     }
   }
-  
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px){
+  #container-buscador{
+    height: auto;
+  }
+}
+@media screen and (max-width: 375px){
+    #container-buscador{
+      .card{
+        margin: -37px;
+        margin-bottom: 56px;
+      }
+    }
+  }
+
+
+  @media screen and (max-width: 375px) {
     .section-1 {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
       padding-top: 20px;
+      margin-bottom: 61px;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .section-2 {
       display: flex;
       flex-direction: column;
@@ -1196,14 +455,16 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     /* ////////////////////////////////////// cards */
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .container {
       width: 303px;
       height: auto;
+      width: 303px;
+      height: 1578px;
     }
     .container .card {
       width: 330px;
@@ -1214,29 +475,24 @@
       margin: 20px;
       background-color: #fefefe;
       text-align: center;
+      margin-bottom: 94px;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
-    .container2 {
-      width: 303px;
-      height: auto;
-    }
-  }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px)  {
     .search-box {
       width: 340px;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .contenedor-cards {
       display: none;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px){
     .catalogo-btn {
       text-decoration: none;
       border-radius: 50px;
@@ -1254,13 +510,13 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .search-txt {
       text-align: left;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .nav-catalogo ul {
       display: flex;
       flex-direction: column;
@@ -1272,25 +528,25 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px)  {
     .circulo-bg {
       display: none;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) and (max-width: 375px) {
     .arrow-up {
       display: none;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) and (max-width: 375px) {
     .pie-pagina {
       height: 65vh;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) and (max-width: 375px) {
     .waves-img {
       margin-top: -315px;
       left: -501px;
@@ -1301,7 +557,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) and (max-width: 375px) {
     .contenedor-footer {
       display: flex;
       flex-direction: column;
@@ -1310,7 +566,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) and (max-width: 375px) {
     .logo-white {
       margin-right: 0px;
       margin-bottom: 25px;
@@ -1321,7 +577,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) and (max-width: 375px) {
     .contenedor-redes {
       position: relative;
       bottom: -95px;
@@ -1330,13 +586,13 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) and (max-width: 375px) {
     .redes-txt {
       display: none;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) and (max-width: 375px) {
     .redes {
       display: flex;
       justify-content: center;
@@ -1349,7 +605,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) and (max-width: 375px) {
     .mapa {
       position: relative;
       bottom: 94px;
@@ -1362,13 +618,13 @@
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) and (max-width: 375px) {
     iframe {
       display: none;
     }
   }
   
-  @media screen and (max-width: 768px) and (max-width: 768px) {
+  @media screen and (max-width: 375px) and (max-width: 375px) {
     .autora {
       padding-top: 21px;
     }
@@ -1380,7 +636,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .popup-card {
       flex-direction: column;
       width: 80%;
@@ -1388,7 +644,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .product-img {
       width: auto;
       height: 294.61px;
@@ -1405,7 +661,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .info {
       width: 290.57px;
       height: 381.57px;
@@ -1414,20 +670,20 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .info-title {
       margin-top: 0;
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .info-txt {
       font-size: 14px;
       font-weight: 300;
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .price {
       font-size: 25px;
       font-weight: 400;
@@ -1436,7 +692,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .product-img {
       width: 271px;
       border-radius: 8px;
@@ -1449,7 +705,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .add-cart-btn {
       font-weight: 400;
       font-size: 13px;
@@ -1458,7 +714,7 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .close-btn {
       color: #fefefe;
       z-index: 650;
@@ -1471,9 +727,9 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 375px) {
     .section-3 {
-      height: 3000px;
+        height: auto;
     }
   }
   

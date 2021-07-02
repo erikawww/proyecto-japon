@@ -830,15 +830,9 @@ iframe {
     margin-bottom: 10px; } }
 
 @media (max-width: 1440px) {
-  .container2 .card2 h3 {
-    font-size: 18px;
-    font-weight: 600;
-    font-size: 23px; } }
-
-@media (max-width: 1440px) {
   .card-btn {
-    font-size: 18px;
-    font-weight: 500; } }
+    font-size: 22px;
+    font-weight: 400; } }
 
 @media (max-width: 1440px) {
   #mujer {
@@ -886,32 +880,32 @@ iframe {
   .autora {
     margin-top: 93px; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .cabecera {
     padding-top: 0px;
     display: flex;
     background-color: #223150;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .logo {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     padding: 20px 0 0 30px; } }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .logo-header-white {
     display: flex;
     height: 50px;
     width: auto;
     margin-left: 7px; } }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .logo-header {
     display: none; } }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   #boton-carrito {
     margin-left: 255px;
     border: none;
@@ -928,7 +922,7 @@ iframe {
     height: 92px;
     width: 92px; } }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   #contadorCarrito {
     background-color: #bc002d;
     padding: 7px 11px;
@@ -946,13 +940,13 @@ iframe {
   position: relative;
   top: 16px; }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .iconoBag {
     font-size: 54px;
     top: -6px;
     right: -22px; } }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .modal-carrito {
     position: relative;
     top: 25px;
@@ -962,12 +956,12 @@ iframe {
     border-radius: 10px;
     height: 426px; } }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .modal-contenedor {
     width: 100vw;
     height: 100%; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .nav-bar {
     position: relative;
     padding: 0; }
@@ -980,9 +974,9 @@ iframe {
   .nav-bar ul li a {
     color: white;
     font-weight: 400;
-    font-size: 20px; } }
+    font-size: 22px; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .burguer-menu {
     display: flex;
     flex-direction: column;
@@ -1001,11 +995,11 @@ iframe {
 #menu {
   font-size: 1.8rem; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .nav-links {
     flex-direction: column;
     position: fixed;
-    background: #223150;
+    background: linear-gradient(to bottom, #223150, #222);
     height: 95vh;
     width: 100%;
     top: 90px;
@@ -1016,16 +1010,16 @@ iframe {
   .nav-links a {
     color: #fefefe; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .nav-links.open {
     clip-path: circle(396px at 81% 8%);
     -webkit-clip-path: circle(396px at 81% 8%); } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .nav-item:hover {
     display: none; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
     transition: 0.1s ease-in-out; }
@@ -1035,11 +1029,11 @@ iframe {
     transform: rotate(45deg) translate(-5px, -6px);
     transition: 0.1s ease-in-out; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   hr {
     display: none; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .splash-main {
     overflow: hidden;
     overflow-y: hidden;
@@ -1049,27 +1043,27 @@ iframe {
     grid-template-rows: auto;
     grid-template-areas: "texto" "contenedorImg"; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .texto {
     grid-area: texto;
     margin-top: 48px;
     margin-left: 15px;
     margin-right: 52px; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .texto p {
     font-size: 15px;
     font-weight: 400;
     line-height: 15px;
     padding-top: 1px; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .contenedorImg {
     grid-area: contenedorImg;
     padding-top: 0;
     padding-bottom: 54px; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .circulo {
     position: relative;
     width: 400px;
@@ -1078,7 +1072,7 @@ iframe {
     top: 47px;
     overflow: hidden; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .ropa-img {
     position: relative;
     width: auto;
@@ -1086,34 +1080,45 @@ iframe {
     left: -13px;
     top: -8px; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   h2 {
     font-size: 26px; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   #hombre {
     padding-top: 0; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   #mujer {
-    margin-top: 70px; } }
+    margin-top: 70px;
+    padding-bottom: 1066px; } }
 
-@media screen and (max-width: 768px) and (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .contenedor-catalogo {
     width: 116vw;
     display: flex;
     align-items: center;
     flex-flow: column nowrap; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
+  #container-buscador {
+    height: auto; } }
+
+@media screen and (max-width: 375px) {
+  #container-buscador .card {
+    margin: -37px;
+    margin-bottom: 56px; } }
+
+@media screen and (max-width: 375px) {
   .section-1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px; } }
+    padding-top: 20px;
+    margin-bottom: 61px; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .section-2 {
     display: flex;
     flex-direction: column;
@@ -1122,13 +1127,15 @@ iframe {
     padding-top: 20px;
     padding-bottom: 60px; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   /* ////////////////////////////////////// cards */ }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .container {
     width: 303px;
-    height: auto; }
+    height: auto;
+    width: 303px;
+    height: 1578px; }
   .container .card {
     width: 330px;
     height: 460px;
@@ -1137,22 +1144,18 @@ iframe {
     overflow: hidden;
     margin: 20px;
     background-color: #fefefe;
-    text-align: center; } }
+    text-align: center;
+    margin-bottom: 94px; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
-  .container2 {
-    width: 303px;
-    height: auto; } }
-
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .search-box {
     width: 340px; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .contenedor-cards {
     display: none; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .catalogo-btn {
     text-decoration: none;
     border-radius: 50px;
@@ -1168,11 +1171,11 @@ iframe {
     margin-top: 75px;
     display: none; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .search-txt {
     text-align: left; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .nav-catalogo ul {
     display: flex;
     flex-direction: column;
@@ -1181,19 +1184,19 @@ iframe {
   .nav-catalogo ul li {
     padding: 20px; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .circulo-bg {
     display: none; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) and (max-width: 375px) {
   .arrow-up {
     display: none; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) and (max-width: 375px) {
   .pie-pagina {
     height: 65vh; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) and (max-width: 375px) {
   .waves-img {
     margin-top: -315px;
     left: -501px;
@@ -1202,14 +1205,14 @@ iframe {
     top: 144px;
     right: 135px; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) and (max-width: 375px) {
   .contenedor-footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) and (max-width: 375px) {
   .logo-white {
     margin-right: 0px;
     margin-bottom: 25px; }
@@ -1217,18 +1220,18 @@ iframe {
     width: 173px;
     height: auto; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) and (max-width: 375px) {
   .contenedor-redes {
     position: relative;
     bottom: -95px;
     margin-right: 0px;
     margin: 40px 0 40px 0; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) and (max-width: 375px) {
   .redes-txt {
     display: none; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) and (max-width: 375px) {
   .redes {
     display: flex;
     justify-content: center; }
@@ -1237,7 +1240,7 @@ iframe {
   .redes li a {
     font-size: 2rem; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) and (max-width: 375px) {
   .mapa {
     position: relative;
     bottom: 94px;
@@ -1247,11 +1250,11 @@ iframe {
     margin-right: 0px;
     font-size: 13px; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) and (max-width: 375px) {
   iframe {
     display: none; } }
 
-@media screen and (max-width: 768px) and (max-width: 768px) {
+@media screen and (max-width: 375px) and (max-width: 375px) {
   .autora {
     padding-top: 21px; }
   .autora .diseño {
@@ -1259,13 +1262,13 @@ iframe {
   .autora .iooo {
     font-size: 14px; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .popup-card {
     flex-direction: column;
     width: 80%;
     height: 20%; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .product-img {
     width: auto;
     height: 294.61px;
@@ -1279,30 +1282,30 @@ iframe {
     left: 0px;
     top: 30px; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .info {
     width: 290.57px;
     height: 381.57px;
     position: relative;
     top: -16px; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .info-title {
     margin-top: 0; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .info-txt {
     font-size: 14px;
     font-weight: 300; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .price {
     font-size: 25px;
     font-weight: 400;
     margin: -4px 0 30px 0;
     text-align: center; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .product-img {
     width: 271px;
     border-radius: 8px;
@@ -1312,14 +1315,14 @@ iframe {
     height: 343px;
     top: -2px; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .add-cart-btn {
     font-weight: 400;
     font-size: 13px;
     position: relative;
     top: -28px; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .close-btn {
     color: #fefefe;
     z-index: 650;
@@ -1330,6 +1333,6 @@ iframe {
     margin: 20px;
     cursor: pointer; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
   .section-3 {
-    height: 3000px; } }
+    height: auto; } }
