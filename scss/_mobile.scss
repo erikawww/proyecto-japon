@@ -137,7 +137,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .cabecera {
       padding-top: 0px;
       display: flex;
@@ -146,7 +146,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .logo {
       display: flex;
       flex-direction: row;
@@ -155,7 +155,7 @@
     }
   }
   
-  @media (max-width: 375px) {
+  @media (min-width: 375px) {
     .logo-header-white {
       display: flex;
       height: 50px;
@@ -164,13 +164,13 @@
     }
   }
   
-  @media (max-width: 375px) {
+  @media (min-width: 375px) {
     .logo-header {
       display: none;
     }
   }
   
-  @media (max-width: 375px) {
+  @media (min-width: 375px) {
     #boton-carrito {
       margin-left: 255px;
       border: none;
@@ -189,7 +189,7 @@
     }
   }
   
-  @media (max-width: 375px) {
+  @media (min-width: 375px) {
     #contadorCarrito {
       background-color: #bc002d;
       padding: 7px 11px;
@@ -210,7 +210,7 @@
     top: 16px;
   }
   
-  @media (max-width: 375px) {
+  @media (min-width: 375px) {
     .iconoBag {
       font-size: 54px;
       top: -6px;
@@ -218,7 +218,7 @@
     }
   }
   
-  @media (max-width: 375px) {
+  @media (min-width: 375px) {
     .modal-carrito {
       position: relative;
       top: 25px;
@@ -229,14 +229,14 @@
       height: 426px;
     }
   }
-  @media (max-width: 375px) {
+  @media (min-width: 375px) {
     .modal-contenedor {
       width: 100vw;
       height: 100%;
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .nav-bar {
       position: relative;
       padding: 0;
@@ -256,7 +256,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .burguer-menu {
       display: flex;
       flex-direction: column;
@@ -279,7 +279,7 @@
     font-size: 1.8rem;
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .nav-links {
       flex-direction: column;
       position: fixed;
@@ -297,40 +297,40 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .nav-links.open {
       clip-path: circle(396px at 81% 8%);
       -webkit-clip-path: circle(396px at 81% 8%);
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .nav-item:hover {
       display: none;
     }
   }
   
-  @media screen and (max-width: 375px) {
-    .toggle .line1 {
+  @media screen and (min-width: 375px) {
+    .open .line1 {
       transform: rotate(-45deg) translate(-5px, 6px);
       transition: 0.1s ease-in-out;
     }
-    .toggle .line2 {
+    .open .line2 {
       opacity: 0;
     }
-    .toggle .line3 {
+    .open .line3 {
       transform: rotate(45deg) translate(-5px, -6px);
       transition: 0.1s ease-in-out;
     }
   }
   
-  @media screen and (max-width: 375px)  {
+  @media screen and (min-width: 375px)  {
     hr {
       display: none;
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .splash-main {
       overflow: hidden;
       overflow-y: hidden;
@@ -344,7 +344,7 @@
     }
   }
   
-  @media screen and (max-width: 375px)  {
+  @media screen and (min-width: 375px)  {
     .texto {
       grid-area: texto;
       margin-top: 48px;
@@ -353,7 +353,7 @@
     }
   }
   
-  @media screen and (max-width: 375px)  {
+  @media screen and (min-width: 375px)  {
     .texto p {
       font-size: 15px;
       font-weight: 400;
@@ -362,7 +362,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .contenedorImg {
       grid-area: contenedorImg;
       padding-top: 0;
@@ -370,7 +370,7 @@
     }
   }
   
-  @media screen and (max-width: 375px){
+  @media screen and (min-width: 375px){
     .circulo {
       position: relative;
       width: 400px;
@@ -381,7 +381,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .ropa-img {
       position: relative;
       width: auto;
@@ -391,26 +391,26 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     h2 {
       font-size: 26px;
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     #hombre {
       padding-top: 0;
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     #mujer {
         margin-top: 70px;
         padding-bottom: 1066px;
     }
   }
   
-  @media screen and (max-width: 375px){
+  @media screen and (min-width: 375px){
     .contenedor-catalogo {
       width: 116vw;
       display: flex;
@@ -418,12 +418,12 @@
       flex-flow: column nowrap;
     }
   }
-@media screen and (max-width: 375px){
+@media screen and (min-width: 375px){
   #container-buscador{
     height: auto;
   }
 }
-@media screen and (max-width: 375px){
+@media screen and (min-width: 375px){
     #container-buscador{
       .card{
         margin: -37px;
@@ -433,7 +433,7 @@
   }
 
 
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .section-1 {
       display: flex;
       flex-direction: column;
@@ -444,7 +444,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .section-2 {
       display: flex;
       flex-direction: column;
@@ -455,11 +455,11 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     /* ////////////////////////////////////// cards */
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .container {
       width: 303px;
       height: auto;
@@ -480,19 +480,19 @@
   }
   
   
-  @media screen and (max-width: 375px)  {
+  @media screen and (min-width: 375px)  {
     .search-box {
       width: 340px;
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .contenedor-cards {
       display: none;
     }
   }
   
-  @media screen and (max-width: 375px){
+  @media screen and (min-width: 375px){
     .catalogo-btn {
       text-decoration: none;
       border-radius: 50px;
@@ -510,13 +510,13 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .search-txt {
       text-align: left;
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .nav-catalogo ul {
       display: flex;
       flex-direction: column;
@@ -528,25 +528,25 @@
     }
   }
   
-  @media screen and (max-width: 375px)  {
+  @media screen and (min-width: 375px)  {
     .circulo-bg {
       display: none;
     }
   }
   
-  @media screen and (max-width: 375px) and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .arrow-up {
       display: none;
     }
   }
   
-  @media screen and (max-width: 375px) and (max-width: 375px) {
+  @media screen and (min-width: 375px)  {
     .pie-pagina {
       height: 65vh;
     }
   }
   
-  @media screen and (max-width: 375px) and (max-width: 375px) {
+  @media screen and (min-width: 375px)  {
     .waves-img {
       margin-top: -315px;
       left: -501px;
@@ -557,7 +557,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) and (max-width: 375px) {
+  @media screen and (min-width: 375px)  {
     .contenedor-footer {
       display: flex;
       flex-direction: column;
@@ -566,7 +566,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) and (max-width: 375px) {
+  @media screen and (min-width: 375px)  {
     .logo-white {
       margin-right: 0px;
       margin-bottom: 25px;
@@ -577,7 +577,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) and (max-width: 375px) {
+  @media screen and (min-width: 375px)  {
     .contenedor-redes {
       position: relative;
       bottom: -95px;
@@ -586,13 +586,13 @@
     }
   }
   
-  @media screen and (max-width: 375px) and (max-width: 375px) {
+  @media screen and (min-width: 375px)  {
     .redes-txt {
       display: none;
     }
   }
   
-  @media screen and (max-width: 375px) and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .redes {
       display: flex;
       justify-content: center;
@@ -605,26 +605,25 @@
     }
   }
   
-  @media screen and (max-width: 375px) and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .mapa {
       position: relative;
       bottom: 94px;
       text-align: center;
       margin: 0 20px 0 20px;
-    }
-    .mapa .mapa-txt {
-      margin-right: 0px;
-      font-size: 13px;
+      .mapa-txt {
+        margin-right: 0px;
+        font-size: 13px;
+      }
     }
   }
-  
-  @media screen and (max-width: 375px) and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     iframe {
       display: none;
     }
   }
   
-  @media screen and (max-width: 375px) and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .autora {
       padding-top: 21px;
     }
@@ -636,7 +635,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .popup-card {
       flex-direction: column;
       width: 80%;
@@ -644,7 +643,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .product-img {
       width: auto;
       height: 294.61px;
@@ -661,7 +660,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .info {
       width: 290.57px;
       height: 381.57px;
@@ -670,20 +669,20 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .info-title {
       margin-top: 0;
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .info-txt {
       font-size: 14px;
       font-weight: 300;
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .price {
       font-size: 25px;
       font-weight: 400;
@@ -705,7 +704,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .add-cart-btn {
       font-weight: 400;
       font-size: 13px;
@@ -714,7 +713,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .close-btn {
       color: #fefefe;
       z-index: 650;
@@ -727,7 +726,7 @@
     }
   }
   
-  @media screen and (max-width: 375px) {
+  @media screen and (min-width: 375px) {
     .section-3 {
         height: auto;
     }
